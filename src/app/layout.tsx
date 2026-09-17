@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Roboto } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 
-const font = Roboto({
-	variable: "--font-roboto",
+const font = Inter({
+	variable: "--font-inter",
 	subsets: ["latin"],
 });
 

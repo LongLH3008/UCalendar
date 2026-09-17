@@ -6,7 +6,6 @@ export const DATE_OF_WEEK = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 
 export function generateMonthCalendar(year: number, month: number) {
 	// 1. Xác định ngày đầu tiên và ngày cuối cùng của tháng đó
-	logger.info(`[time]: ${month} / ${year}`);
 	const firstDayOfMonth = Temporal.PlainDate.from({ year, month, day: 1 });
 	const daysInMonth = firstDayOfMonth.daysInMonth; // Tự động biết tháng có 28, 30 hay 31 ngày
 
@@ -25,7 +24,11 @@ export function generateMonthCalendar(year: number, month: number) {
 			weekDays.push({
 				dateOfWeek: DATE_OF_WEEK[day],
 				dateString: currentGridDate.toString(), // YYYY-MM-DD
-				solar: currentGridDate.day,
+				solar: {
+					year: currentGridDate.year,
+					month: currentGridDate.month,
+					day: currentGridDate.day,
+				},
 				lunar: solarToLunar(currentGridDate.year, currentGridDate.month, currentGridDate.day),
 				month: currentGridDate.month,
 				isCurrentMonth: currentGridDate.month === month,
@@ -36,6 +39,8 @@ export function generateMonthCalendar(year: number, month: number) {
 		}
 		calendarWeeks.push(weekDays);
 	}
+
+	logger.info(`[time]: ${month} / ${year}\n`, calendarWeeks);
 
 	return calendarWeeks;
 }
