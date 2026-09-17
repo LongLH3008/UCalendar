@@ -4,8 +4,8 @@
 	"description": "UCalendar - Your Personal Calendar",
 	"lang": "en",
 	"id": "/",
-	"start_url": "/",
-	"scope": "/",
+	"start_url": "/calendar",
+	"scope": "/calendar",
 	"icons": [
 		{
 			"src": "/web-app-manifest-192x192.png",

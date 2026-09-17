@@ -8,9 +8,11 @@ export default function ServiceWorkerRegistration() {
 			return;
 		}
 
-		navigator.serviceWorker.register("/sw.js", { scope: "/", updateViaCache: "none" }).catch((error) => {
-			console.error("Error registering service worker:", error);
-		});
+		navigator.serviceWorker
+			.register("/sw.js", { scope: "/calendar", updateViaCache: "none" })
+			.catch((error) => {
+				console.error("Error registering service worker:", error);
+			});
 	}, []);
 
 	return null;
