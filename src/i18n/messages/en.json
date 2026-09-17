@@ -1,0 +1,31 @@
+{
+	"Landinpage": {},
+	"Metadata": {
+		"title": "UCalendar",
+		"description": "UCalendar - Your personal solar and lunar calendar"
+	},
+	"Common": {
+		"language": "Language"
+	},
+	"Home": {
+		"title": "UCalendar",
+		"description": "Explore your solar and lunar calendar.",
+		"openCalendar": "Open calendar"
+	},
+	"Calendar": {
+		"previous": "Previous",
+		"next": "Next",
+		"previousLabel": "Previous month",
+		"nextLabel": "Next month",
+		"leapMonthMarker": " L",
+		"weekdays": {
+			"Mon": "Mon",
+			"Tue": "Tue",
+			"Wed": "Wed",
+			"Thu": "Thu",
+			"Fri": "Fri",
+			"Sat": "Sat",
+			"Sun": "Sun"
+		}
+	}
+}

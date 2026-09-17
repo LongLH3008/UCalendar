@@ -2,7 +2,7 @@ import { Temporal } from "@js-temporal/polyfill";
 import { logger } from "../lib/logger";
 import { solarToLunar } from "./lunar";
 
-export const DATE_OF_WEEK = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+export const DATE_OF_WEEK = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] as const;
 
 export function generateMonthCalendar(year: number, month: number) {
 	// 1. Xác định ngày đầu tiên và ngày cuối cùng của tháng đó

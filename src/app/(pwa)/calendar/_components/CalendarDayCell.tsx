@@ -1,5 +1,6 @@
 import { cn } from "@/core/lib/utils";
 import type { CalendarDay } from "../calendar.types";
+import { useTranslations } from "next-intl";
 
 type Props = {
 	day: CalendarDay;
@@ -9,6 +10,7 @@ type Props = {
 const isSpecialLunarDay = (day: number) => day === 1 || day === 15;
 
 export default function CalendarDayCell({ day, isToday }: Props) {
+	const t = useTranslations("Calendar");
 	const isWeekend = day.dateOfWeek === "Sat" || day.dateOfWeek === "Sun";
 
 	return (
@@ -37,7 +39,7 @@ export default function CalendarDayCell({ day, isToday }: Props) {
 			>
 				{day.lunar.day}
 				{isSpecialLunarDay(day.lunar.day) ? `/${day.lunar.month}` : ""}
-				{day.lunar.isLeapMonth ? " N" : ""}
+				{day.lunar.isLeapMonth ? t("leapMonthMarker") : ""}
 			</span>
 		</div>
 	);
