@@ -9,7 +9,7 @@ const font = Roboto({
 
 export const metadata: Metadata = {
 	title: "UCalendar",
-	description: "Ứng dụng lịch UCalendar",
+	description: "UCalendar - Your Personal Calendar",
 };
 
 export const viewport: Viewport = {
@@ -18,8 +18,8 @@ export const viewport: Viewport = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
 	return (
-		<html lang='en' className={`${font.variable}  h-full antialiased`}>
-			<body className='min-h-full flex flex-col'>{children}</body>
+		<html lang='en' className={`${font.variable} h-full antialiased`}>
+			<body className='min-h-full flex flex-col bg-white'>{children}</body>
 		</html>
 	);
 }

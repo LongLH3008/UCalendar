@@ -1,0 +1,112 @@
+{
+  "createdAt": "2026-09-17T08:32:43.141Z",
+  "node": "v22.22.2",
+  "next": "16.3.5",
+  "conditions": "Next.js production Route Handler; localhost HTTP; sequential requests, rotated order, warmup, logging off, revalidate=0 for every variant. No Server Component memoization/cache-hit measurement.",
+  "micro": {
+    "callsPerVariant": 6000,
+    "statistic": "median of 12 batch means",
+    "stats": {
+      "fetch + json": {
+        "medianMs": 0.014798800000000029,
+        "meanMs": 0.017198283333333276,
+        "p95Ms": 0.045851000000000114
+      },
+      "fetch + text/parse": {
+        "medianMs": 0.015089400000000069,
+        "meanMs": 0.018037583333333333,
+        "p95Ms": 0.043049400000000106
+      },
+      "sendRequest": {
+        "medianMs": 0.020567399999999906,
+        "meanMs": 0.026934516666666696,
+        "p95Ms": 0.0555311999999999
+      },
+      "sendRequest + timeout": {
+        "medianMs": 0.029979800000000067,
+        "meanMs": 0.03371145000000001,
+        "p95Ms": 0.06993399999999997
+      }
+    }
+  },
+  "network": [
+    {
+      "scenario": "2 KiB, localhost",
+      "requestsPerVariant": 360,
+      "stats": {
+        "fetch + json": {
+          "medianMs": 0.580600000000004,
+          "meanMs": 0.6342708333333313,
+          "p95Ms": 0.8708000000000311
+        },
+        "fetch + text/parse": {
+          "medianMs": 0.5775999999998476,
+          "meanMs": 0.6445419444444449,
+          "p95Ms": 0.8777999999999793
+        },
+        "sendRequest": {
+          "medianMs": 0.583699999999908,
+          "meanMs": 0.6489422222222287,
+          "p95Ms": 0.8812000000000353
+        },
+        "sendRequest + timeout": {
+          "medianMs": 0.5177000000001044,
+          "meanMs": 0.5686497222222183,
+          "p95Ms": 0.8084999999998672
+        }
+      }
+    },
+    {
+      "scenario": "2 KiB, 20 ms server delay",
+      "requestsPerVariant": 120,
+      "stats": {
+        "fetch + json": {
+          "medianMs": 31.390800000001036,
+          "meanMs": 31.601240833333414,
+          "p95Ms": 37.767800000000534
+        },
+        "fetch + text/parse": {
+          "medianMs": 31.40270000000055,
+          "meanMs": 31.04432083333336,
+          "p95Ms": 35.492200000000594
+        },
+        "sendRequest": {
+          "medianMs": 31.222200000000157,
+          "meanMs": 30.644223333333255,
+          "p95Ms": 38.136899999999514
+        },
+        "sendRequest + timeout": {
+          "medianMs": 31.314300000000003,
+          "meanMs": 31.468432499999984,
+          "p95Ms": 37.833700000000135
+        }
+      }
+    },
+    {
+      "scenario": "128 KiB, localhost",
+      "requestsPerVariant": 180,
+      "stats": {
+        "fetch + json": {
+          "medianMs": 2.2458000000005995,
+          "meanMs": 2.5837538888888147,
+          "p95Ms": 5.693999999999505
+        },
+        "fetch + text/parse": {
+          "medianMs": 2.2199000000000524,
+          "meanMs": 2.4813655555554055,
+          "p95Ms": 4.294499999999971
+        },
+        "sendRequest": {
+          "medianMs": 2.2251999999971304,
+          "meanMs": 2.4945649999999255,
+          "p95Ms": 4.073500000002241
+        },
+        "sendRequest + timeout": {
+          "medianMs": 2.0014999999984866,
+          "meanMs": 2.249471111111335,
+          "p95Ms": 4.600399999999354
+        }
+      }
+    }
+  ]
+}

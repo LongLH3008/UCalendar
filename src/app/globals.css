@@ -1,26 +1,38 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-geist-sans);
+	--font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+	/*[ src/components/shared/Heading.tsx ] ================================= */
+	.heading-font-size {
+		/* Numeric sizes are px equivalents at the default 16px root font size. */
+		--heading-mobile: min(var(--heading-font-size), max(16, var(--heading-font-size) * 0.75));
+
+		/* Interpolate between a 360px mobile viewport and a 1280px desktop viewport. */
+		--heading-slope: calc((var(--heading-font-size) - var(--heading-mobile)) / 920);
+		--heading-intercept: calc(var(--heading-mobile) - var(--heading-slope) * 360);
+
+		font-size: clamp(
+			calc(var(--heading-mobile) / 16 * 1rem),
+			calc(var(--heading-intercept) / 16 * 1rem + var(--heading-slope) * 100vw),
+			calc(var(--heading-font-size) / 16 * 1rem)
+		);
+	}
 }
