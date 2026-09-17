@@ -10,6 +10,14 @@ const font = Roboto({
 export const metadata: Metadata = {
 	title: "UCalendar",
 	description: "UCalendar - Your Personal Calendar",
+	manifest: "/pwa/manifest.webmanifest",
+	icons: {
+		icon: [
+			{ url: "/pwa/icons/icon0.svg", type: "image/svg+xml" },
+			{ url: "/pwa/icons/icon1.png", type: "image/png" },
+		],
+		apple: "/pwa/icons/apple-icon.png",
+	},
 };
 
 export const viewport: Viewport = {

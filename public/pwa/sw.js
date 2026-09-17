@@ -1,6 +1,6 @@
 const CACHE_PREFIX = "ucalendar-offline-";
-const CACHE_NAME = `${CACHE_PREFIX}v1`;
-const OFFLINE_URL = "/offline.html";
+const CACHE_NAME = `${CACHE_PREFIX}v2`;
+const OFFLINE_URL = "/pwa/offline.html";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

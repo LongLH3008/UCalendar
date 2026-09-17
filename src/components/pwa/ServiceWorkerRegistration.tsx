@@ -9,7 +9,7 @@ export default function ServiceWorkerRegistration() {
 		}
 
 		navigator.serviceWorker
-			.register("/sw.js", { scope: "/calendar", updateViaCache: "none" })
+			.register("/pwa/sw.js", { scope: "/calendar", updateViaCache: "none" })
 			.catch((error) => {
 				console.error("Error registering service worker:", error);
 			});
