@@ -28,7 +28,7 @@ export default function useCalendarSwipe(changeMonth: (direction: "next" | "prev
 			const crossDistance = horizontal ? Math.abs(dy) : Math.abs(dx);
 			if (distance < 50 || distance < crossDistance * 1.2) return;
 			const swipe = horizontal ? (dx > 0 ? "right" : "left") : (dy < 0 ? "up" : "down");
-			changeMonth(swipe === "right" || swipe === "up" ? "next" : "prev", swipe);
+			changeMonth(swipe === "left" || swipe === "up" ? "next" : "prev", swipe);
 		},
 		onPointerCancel: reset,
 		onLostPointerCapture: reset,

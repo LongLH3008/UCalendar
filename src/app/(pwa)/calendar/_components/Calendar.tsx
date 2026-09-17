@@ -14,7 +14,7 @@ export default function Calendar() {
 	const { calendarWeeks, changeMonth, currentTime, dateOfWeek, todayDateString } = useLogicCalendar();
 	const [motion, setMotion] = useState<SwipeDirection | null>(null);
 	const navigate = (direction: "next" | "prev", swipe?: SwipeDirection) => {
-		setMotion(swipe ?? (direction === "next" ? "right" : "left"));
+		setMotion(swipe ?? (direction === "next" ? "left" : "right"));
 		changeMonth(direction);
 	};
 	const swipeHandlers = useCalendarSwipe(navigate);

@@ -1,7 +1,7 @@
 .monthTransition {
 	--slide-x: 0px;
 	--slide-y: 0px;
-	animation: month-enter 300ms ease-in-out;
+	animation: month-enter 500ms ease-in-out;
 }
 
 .monthTransition[data-motion="right"] {

@@ -1,6 +1,6 @@
 import { cn } from "@/core/lib/utils";
-import type { CalendarDay } from "../calendar.types";
 import { useTranslations } from "next-intl";
+import type { CalendarDay } from "../calendar.types";
 
 type Props = {
 	day: CalendarDay;
@@ -39,7 +39,7 @@ export default function CalendarDayCell({ day, isToday }: Props) {
 			>
 				{day.lunar.day}
 				{isSpecialLunarDay(day.lunar.day) ? `/${day.lunar.month}` : ""}
-				{day.lunar.isLeapMonth ? t("leapMonthMarker") : ""}
+				{day.lunar.isLeapMonth}
 			</span>
 		</div>
 	);
