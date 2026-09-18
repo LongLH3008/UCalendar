@@ -1,5 +1,6 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
+import { withSerwist } from "@serwist/turbopack";
 
 const nextConfig: NextConfig = {
   /* config options here */
@@ -18,4 +19,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default createNextIntlPlugin()(nextConfig);
+export default withSerwist(createNextIntlPlugin()(nextConfig));
