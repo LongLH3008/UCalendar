@@ -17,15 +17,15 @@ test("mobile bundle includes all event images and the dialog displays the matchi
 	const calendarBounds = await page.locator("article > div").first().boundingBox();
 	await expect.poll(async () => (await dialog.boundingBox())!.width).toBeCloseTo(calendarBounds!.width, 1);
 	const image = page.getByRole("dialog").getByRole("img");
-	await expect(image).toHaveAttribute("src", "/event/valentines-day.jpg");
+	await expect(image).toHaveAttribute("src", "/event/valentines-day-16x9.webp");
 	await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
 	await page.keyboard.press("Escape");
 	await page.getByRole("combobox").selectOption("vi");
 	await page.getByRole("button", { name: /Tết Nguyên đán/ }).tap();
 	await expect(dialog.getByText("Âm lịch: 1/1/2026", { exact: true })).toBeVisible();
 	await expect(dialog).not.toContainText("17 tháng 2");
-	await expect(image).toHaveAttribute("src", "/event/tet.jpg");
-	await expect(image).toHaveAttribute("alt", "Đường hoa Nguyễn Huệ trong dịp Tết Nguyên đán");
+	await expect(image).toHaveAttribute("src", "/event/tet-16x9.webp");
+	await expect(image).toHaveAttribute("alt", vietnamEvents.find((event) => event.id === "tet")!.image.alt.vi);
 	await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
 });
 

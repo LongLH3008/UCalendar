@@ -96,7 +96,7 @@ export default function CalendarDayCell({ day }: Props) {
 					<figure>
 						{/* Local assets are shared by Next.js and the packaged Capacitor app. */}
 						{/* eslint-disable-next-line @next/next/no-img-element */}
-						<img src={event.image.src} alt={event.image.alt[locale]} width={event.image.width} height={event.image.height} className='max-h-80 w-full rounded-2xl border border-gray-200 bg-slate-50 object-contain shadow-sm' />
+						<img src={event.image.src} alt={event.image.alt[locale]} width={event.image.width} height={event.image.height} className='aspect-video w-full rounded-2xl border border-gray-200 bg-slate-50 object-cover shadow-sm' />
 					</figure>
 				</section>)}
 			</div>

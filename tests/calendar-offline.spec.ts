@@ -19,7 +19,7 @@ test("all event images are precached and an unseen event dialog displays its ima
 	}
 	await page.getByRole("button", { name: /Vietnamese Lunar New Year/ }).click();
 	const image = page.getByRole("dialog").getByRole("img");
-	await expect(image).toHaveAttribute("src", "/event/tet.jpg");
+	await expect(image).toHaveAttribute("src", "/event/tet-16x9.webp");
 	await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
 });
 

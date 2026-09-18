@@ -2,580 +2,652 @@
   "retrievedAt": "2026-09-18",
   "images": {
     "valentines-day": {
-      "src": "/event/valentines-day.jpg",
+      "src": "/event/valentines-day-16x9.webp",
       "alt": {
-        "vi": "Thiệp Valentine với biểu tượng tình yêu",
-        "en": "A Valentine card symbolizing love"
+        "vi": "Cặp đôi chia sẻ bánh quy dịp Valentine",
+        "en": "A couple sharing a cookie for Valentine’s Day"
       },
       "width": 960,
-      "height": 1538,
-      "author": "Upload: Chordboard",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antique_Valentine_1909_01.jpg",
-      "originalFile": "File:Antique Valentine 1909 01.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Antique_Valentine_1909_01.jpg/960px-Antique_Valentine_1909_01.jpg",
-      "bytes": 350481
+      "height": 540,
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valentines_couple_sharing_cookie.jpg",
+      "originalFile": "File:Valentines couple sharing cookie.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Valentines_couple_sharing_cookie.jpg/960px-Valentines_couple_sharing_cookie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 70228,
+      "sha256": "093a070e8a4f5a5cd4ba1a70d0a7487813c5d90c79fa7d3a43a10d1f34b6e6c6",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     },
     "international-day-of-happiness": {
-      "src": "/event/international-day-of-happiness.png",
+      "src": "/event/international-day-of-happiness-16x9.webp",
       "alt": {
-        "vi": "Khuôn mặt cười tượng trưng cho Ngày Quốc tế Hạnh phúc",
-        "en": "A smiling face symbolizing the International Day of Happiness"
+        "vi": "Những người phụ nữ cùng cười vui tại Rotterdam",
+        "en": "Women laughing together in Rotterdam"
       },
       "width": 960,
-      "height": 960,
-      "author": "Pumbaa80",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Smiley.svg",
-      "originalFile": "File:Smiley.svg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Smiley.svg/960px-Smiley.svg.png",
-      "bytes": 101750
+      "height": 540,
+      "author": "Peter van der Sluijs",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laughing_women_ladiesrun_Rotterdam.JPG",
+      "originalFile": "File:Laughing women ladiesrun Rotterdam.JPG",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Laughing_women_ladiesrun_Rotterdam.JPG/960px-Laughing_women_ladiesrun_Rotterdam.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 154390,
+      "sha256": "cde2d9f9430c2e7b664825656e2b4028afd3b0f7d0ca01d02e0cc00cc462e765",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     },
     "april-fools-day": {
-      "src": "/event/april-fools-day.png",
+      "src": "/event/april-fools-day-16x9.webp",
       "alt": {
-        "vi": "Trò đùa báo chí trong ngày Cá tháng Tư",
-        "en": "A newspaper prank on April Fools' Day"
+        "vi": "Người tham gia lễ diễu hành Saint Stupid trong ngày Cá tháng Tư",
+        "en": "Participants in the April Fools’ Saint Stupid’s Day Parade"
       },
       "width": 960,
-      "height": 500,
-      "author": "Lars Andersen",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aprilsnar_2001.png",
-      "originalFile": "File:Aprilsnar 2001.png",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Aprilsnar_2001.png/960px-Aprilsnar_2001.png",
-      "bytes": 864443
+      "height": 540,
+      "author": "en:User:48states",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SaintStupid.jpg",
+      "originalFile": "File:SaintStupid.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/3/35/SaintStupid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "bytes": 62864,
+      "sha256": "ce7fa964af986e8b97753664d3ec0818a83b4b452974cce026c4d90d908142e7",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     },
     "world-environment-day": {
-      "src": "/event/world-environment-day.jpg",
+      "src": "/event/world-environment-day-16x9.webp",
       "alt": {
-        "vi": "Đôi tay nâng cây non tượng trưng cho việc bảo vệ môi trường",
-        "en": "Hands holding a seedling, symbolizing environmental protection"
-      },
-      "width": 853,
-      "height": 1000,
-      "author": "This is a work (CG or photograph) by Danilo Prudêncio Silva. My Flickr.",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ecologia.jpg",
-      "originalFile": "File:Ecologia.jpg",
-      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Ecologia.jpg",
-      "bytes": 481847
-    },
-    "halloween": {
-      "src": "/event/halloween.jpg",
-      "alt": {
-        "vi": "Đèn bí ngô đặc trưng của Halloween",
-        "en": "A jack-o'-lantern associated with Halloween"
-      },
-      "width": 960,
-      "height": 943,
-      "author": "Toby Ord",
-      "license": "CC BY-SA 2.5",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jack-o%27-Lantern_2003-10-31.jpg",
-      "originalFile": "File:Jack-o'-Lantern 2003-10-31.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Jack-o%27-Lantern_2003-10-31.jpg/960px-Jack-o%27-Lantern_2003-10-31.jpg",
-      "bytes": 56308
-    },
-    "christmas-eve": {
-      "src": "/event/christmas-eve.jpg",
-      "alt": {
-        "vi": "Tranh đêm Giáng sinh năm 1878",
-        "en": "An 1878 illustration of Christmas Eve"
-      },
-      "width": 960,
-      "height": 709,
-      "author": "J. Hoover & Son",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChristmasEve1878.jpg",
-      "originalFile": "File:ChristmasEve1878.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/ChristmasEve1878.jpg/960px-ChristmasEve1878.jpg",
-      "bytes": 194091
-    },
-    "christmas-day": {
-      "src": "/event/christmas-day.jpg",
-      "alt": {
-        "vi": "Trang trí Giáng sinh tái hiện cảnh Chúa giáng sinh",
-        "en": "Christmas decorations depicting the Nativity"
-      },
-      "width": 960,
-      "height": 686,
-      "author": "File:NativityChristmasLights.jpg: derivative work: Crumpled Fire",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:NativityChristmasLights2.jpg",
-      "originalFile": "File:NativityChristmasLights2.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/NativityChristmasLights2.jpg/960px-NativityChristmasLights2.jpg",
-      "bytes": 129491
-    },
-    "new-years-eve": {
-      "src": "/event/new-years-eve.jpg",
-      "alt": {
-        "vi": "Pháo hoa đón giao thừa Dương lịch",
-        "en": "Fireworks celebrating New Year's Eve"
+        "vi": "Người tham gia hoạt động Ngày Môi trường Thế giới tại Maldives",
+        "en": "People attending World Environment Day activities in the Maldives"
       },
       "width": 960,
       "height": 540,
-      "author": "Andreas Weith",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_(1),_brightened.jpg",
-      "originalFile": "File:Fireworks on New Year's Eve in a small Swabian village (1), brightened.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_%281%29%2C_brightened.jpg/960px-Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_%281%29%2C_brightened.jpg",
-      "bytes": 173369
-    },
-    "new-year": {
-      "src": "/event/new-year.jpg",
-      "alt": {
-        "vi": "Pháo hoa mừng năm mới Dương lịch tại Mexico City",
-        "en": "New Year fireworks in Mexico City"
-      },
-      "width": 960,
-      "height": 669,
-      "author": "Eneas De Troya from Mexico City, México",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mexico_City_New_Years_2013!_(8333128248).jpg",
-      "originalFile": "File:Mexico City New Years 2013! (8333128248).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Mexico_City_New_Years_2013%21_%288333128248%29.jpg/960px-Mexico_City_New_Years_2013%21_%288333128248%29.jpg",
-      "bytes": 223392
-    },
-    "communist-party-founding": {
-      "src": "/event/communist-party-founding.png",
-      "alt": {
-        "vi": "Biểu tượng búa liềm của Đảng Cộng sản Việt Nam",
-        "en": "The hammer-and-sickle symbol of the Communist Party of Vietnam"
-      },
-      "width": 960,
-      "height": 838,
-      "author": "Original work by Eureka287, vector work by Lasse Havelund, final edit by ComradeBlots",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_flag_logo.svg",
-      "originalFile": "File:Communist Party of Vietnam flag logo.svg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Communist_Party_of_Vietnam_flag_logo.svg/960px-Communist_Party_of_Vietnam_flag_logo.svg.png",
-      "bytes": 27737
-    },
-    "doctors-day": {
-      "src": "/event/doctors-day.png",
-      "alt": {
-        "vi": "Ống nghe y tế tượng trưng cho nghề thầy thuốc",
-        "en": "A medical stethoscope symbolizing the medical profession"
-      },
-      "width": 600,
-      "height": 519,
-      "author": "this version: Sonarpulse. origenal:Huji",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stethoscope-2.png",
-      "originalFile": "File:Stethoscope-2.png",
-      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Stethoscope-2.png",
-      "bytes": 123462
-    },
-    "international-womens-day": {
-      "src": "/event/international-womens-day.jpg",
-      "alt": {
-        "vi": "Áp phích Ngày Quốc tế Phụ nữ năm 1914",
-        "en": "An International Women's Day poster from 1914"
-      },
-      "width": 960,
-      "height": 1489,
-      "author": "Karl Maria Stadler (1888 – nach 1943)",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg",
-      "originalFile": "File:Frauentag 1914 Heraus mit dem Frauenwahlrecht.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg/960px-Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg",
-      "bytes": 354329
-    },
-    "youth-union-founding": {
-      "src": "/event/youth-union-founding.png",
-      "alt": {
-        "vi": "Cờ Đoàn Thanh niên Cộng sản Hồ Chí Minh",
-        "en": "The flag of the Ho Chi Minh Communist Youth Union"
-      },
-      "width": 960,
-      "height": 640,
-      "author": "Own work, based on artwork of Huỳnh Văn Thuận",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_HCM_Communist_Youth_Union.svg",
-      "originalFile": "File:Flag of HCM Communist Youth Union.svg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_HCM_Communist_Youth_Union.svg/960px-Flag_of_HCM_Communist_Youth_Union.svg.png",
-      "bytes": 59464
-    },
-    "reunification-day": {
-      "src": "/event/reunification-day.jpg",
-      "alt": {
-        "vi": "Băng rôn kỷ niệm ngày thống nhất đất nước",
-        "en": "A banner commemorating Vietnam's Reunification Day"
-      },
-      "width": 960,
-      "height": 1280,
-      "author": "Isderion",
-      "license": "CC BY-SA 3.0 de",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reunification_day_banner.jpg",
-      "originalFile": "File:Reunification day banner.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Reunification_day_banner.jpg/960px-Reunification_day_banner.jpg",
-      "bytes": 382392
-    },
-    "labor-day": {
-      "src": "/event/labor-day.jpg",
-      "alt": {
-        "vi": "Hoạt động hưởng ứng Ngày Quốc tế Lao động",
-        "en": "A demonstration marking International Workers' Day"
-      },
-      "width": 960,
-      "height": 639,
-      "author": "SPÖ Presse und Kommunikation",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1.Mai_2013_(8697603319).jpg",
-      "originalFile": "File:1.Mai 2013 (8697603319).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1.Mai_2013_%288697603319%29.jpg/960px-1.Mai_2013_%288697603319%29.jpg",
-      "bytes": 285088
-    },
-    "dien-bien-phu-victory": {
-      "src": "/event/dien-bien-phu-victory.jpg",
-      "alt": {
-        "vi": "Hình ảnh chiến thắng Điện Biên Phủ",
-        "en": "A historical photograph of the Dien Bien Phu victory"
-      },
-      "width": 960,
-      "height": 583,
-      "author": "Vietnam People's Army",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Victory_in_Battle_of_Dien_Bien_Phu.jpg",
-      "originalFile": "File:Victory in Battle of Dien Bien Phu.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Victory_in_Battle_of_Dien_Bien_Phu.jpg/960px-Victory_in_Battle_of_Dien_Bien_Phu.jpg",
-      "bytes": 108254
-    },
-    "ho-chi-minh-birthday": {
-      "src": "/event/ho-chi-minh-birthday.jpg",
-      "alt": {
-        "vi": "Chân dung Chủ tịch Hồ Chí Minh năm 1946",
-        "en": "A portrait of President Ho Chi Minh from 1946"
-      },
-      "width": 960,
-      "height": 1350,
-      "author": "Unknown authorUnknown author",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
-      "originalFile": "File:Ho Chi Minh - 1946 Portrait (cropped).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ho_Chi_Minh_-_1946_Portrait_%28cropped%29.jpg/960px-Ho_Chi_Minh_-_1946_Portrait_%28cropped%29.jpg",
-      "bytes": 274802
-    },
-    "childrens-day": {
-      "src": "/event/childrens-day.jpg",
-      "alt": {
-        "vi": "Trẻ em Việt Nam vui chơi trên bãi biển",
-        "en": "Vietnamese children playing on a beach"
-      },
-      "width": 960,
-      "height": 1440,
-      "author": "Vinnie Cartabiano",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_children_playing_on_a_beach_(26583299808).jpg",
-      "originalFile": "File:Vietnamese children playing on a beach (26583299808).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Vietnamese_children_playing_on_a_beach_%2826583299808%29.jpg/960px-Vietnamese_children_playing_on_a_beach_%2826583299808%29.jpg",
-      "bytes": 250034
-    },
-    "family-day": {
-      "src": "/event/family-day.jpg",
-      "alt": {
-        "vi": "Bữa ăn chung tượng trưng cho sự gắn kết gia đình",
-        "en": "A shared meal symbolizing family togetherness"
-      },
-      "width": 960,
-      "height": 768,
-      "author": "Rhoda Baer (Photographer)",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Family_eating_a_meal_(1).jpg",
-      "originalFile": "File:Family eating a meal (1).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Family_eating_a_meal_%281%29.jpg/960px-Family_eating_a_meal_%281%29.jpg",
-      "bytes": 164327
-    },
-    "war-invalids-and-martyrs": {
-      "src": "/event/war-invalids-and-martyrs.jpg",
-      "alt": {
-        "vi": "Hoạt động Ngày Thương binh - Liệt sĩ tại Quận 3",
-        "en": "War Invalids and Martyrs' Day activities in District 3"
-      },
-      "width": 960,
-      "height": 720,
-      "author": "Phương Huy (thảo luận)",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_Th%C6%B0%C6%A1ng_Binh_Li%E1%BB%87t_S%C4%A9_t%E1%BA%A1i_qu%E1%BA%ADn_3.JPG",
-      "originalFile": "File:Ngày Thương Binh Liệt Sĩ tại quận 3.JPG",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Ng%C3%A0y_Th%C6%B0%C6%A1ng_Binh_Li%E1%BB%87t_S%C4%A9_t%E1%BA%A1i_qu%E1%BA%ADn_3.JPG/960px-Ng%C3%A0y_Th%C6%B0%C6%A1ng_Binh_Li%E1%BB%87t_S%C4%A9_t%E1%BA%A1i_qu%E1%BA%ADn_3.JPG",
-      "bytes": 175280
-    },
-    "august-revolution": {
-      "src": "/event/august-revolution.jpg",
-      "alt": {
-        "vi": "Ảnh tư liệu Cách mạng tháng Tám",
-        "en": "A historical photograph of the August Revolution"
-      },
-      "width": 448,
-      "height": 325,
-      "author": "Vũ Năng An",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_8_b.jpg",
-      "originalFile": "File:Cách mạng tháng 8 b.jpg",
-      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/7/7b/C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_8_b.jpg",
-      "bytes": 97460
-    },
-    "national-day": {
-      "src": "/event/national-day.jpg",
-      "alt": {
-        "vi": "Quảng trường Ba Đình ngày 2 tháng 9 năm 1945",
-        "en": "Ba Dinh Square on September 2, 1945"
-      },
-      "width": 960,
-      "height": 1075,
-      "author": "Unknown authorUnknown author",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_September_2nd,_1945.jpg",
-      "originalFile": "File:Ba Dinh Square September 2nd, 1945.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Ba_Dinh_Square_September_2nd%2C_1945.jpg/960px-Ba_Dinh_Square_September_2nd%2C_1945.jpg",
-      "bytes": 172822
-    },
-    "vietnamese-womens-day": {
-      "src": "/event/vietnamese-womens-day.jpg",
-      "alt": {
-        "vi": "Phụ nữ Việt Nam trong tà áo dài truyền thống",
-        "en": "A Vietnamese woman wearing a traditional ao dai"
-      },
-      "width": 960,
-      "height": 1370,
-      "author": "Phát Trương",
-      "license": "CC BY-SA 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Ao_Dai_-_8431_-_FLICKR_(cropped).jpg",
-      "originalFile": "File:White Ao Dai - 8431 - FLICKR (cropped).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/White_Ao_Dai_-_8431_-_FLICKR_%28cropped%29.jpg/960px-White_Ao_Dai_-_8431_-_FLICKR_%28cropped%29.jpg",
-      "bytes": 201573
-    },
-    "teachers-day": {
-      "src": "/event/teachers-day.jpg",
-      "alt": {
-        "vi": "Thầy và trò Trường Mỹ thuật Đông Dương năm 1926, tượng trưng cho truyền thống tôn sư trọng đạo",
-        "en": "Teachers and students of the Indochina School of Fine Arts in 1926, representing respect for teachers"
-      },
-      "width": 960,
-      "height": 588,
-      "author": "Unknown photographer",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Teachers_and_students_of_the_%C3%89cole_Sup%C3%A9rieure_des_Beaux_Arts_de_l%27Indochine,_1926.jpg",
-      "originalFile": "File:Teachers and students of the École Supérieure des Beaux Arts de l'Indochine, 1926.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Teachers_and_students_of_the_%C3%89cole_Sup%C3%A9rieure_des_Beaux_Arts_de_l%27Indochine%2C_1926.jpg/960px-Teachers_and_students_of_the_%C3%89cole_Sup%C3%A9rieure_des_Beaux_Arts_de_l%27Indochine%2C_1926.jpg",
-      "bytes": 171659
-    },
-    "vietnam-culture-day": {
-      "src": "/event/vietnam-culture-day.jpg",
-      "alt": {
-        "vi": "Múa rối nước, loại hình nghệ thuật truyền thống Việt Nam",
-        "en": "Water puppetry, a traditional Vietnamese art form"
-      },
-      "width": 960,
-      "height": 720,
-      "author": "Gryffindor",
-      "license": "CC BY-SA 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thang_Long_Water_Puppet_Theatre2.JPG",
-      "originalFile": "File:Thang Long Water Puppet Theatre2.JPG",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Thang_Long_Water_Puppet_Theatre2.JPG/960px-Thang_Long_Water_Puppet_Theatre2.JPG",
-      "bytes": 184490
-    },
-    "army-and-national-defense-day": {
-      "src": "/event/army-and-national-defense-day.png",
-      "alt": {
-        "vi": "Quân hiệu Quân đội nhân dân Việt Nam",
-        "en": "The emblem of the Vietnam People's Army"
-      },
-      "width": 960,
-      "height": 961,
-      "author": "Sshu94, updated by Hwipadam.",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emblem_VPA.svg",
-      "originalFile": "File:Emblem VPA.svg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Emblem_VPA.svg/960px-Emblem_VPA.svg.png",
-      "bytes": 249101
-    },
-    "tet": {
-      "src": "/event/tet.jpg",
-      "alt": {
-        "vi": "Đường hoa Nguyễn Huệ trong dịp Tết Nguyên đán",
-        "en": "Nguyen Hue Flower Street during Tet"
-      },
-      "width": 960,
-      "height": 642,
-      "author": "trungydang",
-      "license": "CC BY 3.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xuan_2016_Binh_Than,_duong_nguyen_hue,_phuong_ben_nghe,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
-      "originalFile": "File:Xuan 2016 Binh Than, duong nguyen hue, phuong ben nghe, Quận 1, TPHCM, Việt Nam - panoramio.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Xuan_2016_Binh_Than%2C_duong_nguyen_hue%2C_phuong_ben_nghe%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg/960px-Xuan_2016_Binh_Than%2C_duong_nguyen_hue%2C_phuong_ben_nghe%2C_Qu%E1%BA%ADn_1%2C_TPHCM%2C_Vi%E1%BB%87t_Nam_-_panoramio.jpg",
-      "bytes": 326867
-    },
-    "nguyen-tieu": {
-      "src": "/event/nguyen-tieu.jpg",
-      "alt": {
-        "vi": "Trăng tròn tượng trưng cho Rằm tháng Giêng",
-        "en": "A full moon symbolizing the first full moon of the lunar year"
-      },
-      "width": 960,
-      "height": 719,
-      "author": "Sudora",
-      "license": "CC0",
-      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pournami.jpg",
-      "originalFile": "File:Pournami.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Pournami.jpg/960px-Pournami.jpg",
-      "bytes": 30311
-    },
-    "han-thuc": {
-      "src": "/event/han-thuc.jpg",
-      "alt": {
-        "vi": "Bánh trôi đặc trưng trong Tết Hàn thực",
-        "en": "Rice dumplings associated with the Cold Food Festival"
-      },
-      "width": 593,
-      "height": 445,
-      "author": "Conbo at vi.wikipedia",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banhtroi.JPG",
-      "originalFile": "File:Banhtroi.JPG",
-      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Banhtroi.JPG",
-      "bytes": 30815
-    },
-    "hung-kings": {
-      "src": "/event/hung-kings.jpg",
-      "alt": {
-        "vi": "Lăng Vua Hùng tại khu di tích Đền Hùng",
-        "en": "The Hung King mausoleum at the Hung Temple complex"
-      },
-      "width": 960,
-      "height": 1280,
-      "author": "Viethavvh at vi.wikipedia",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mausoleum_of_Hung_King.JPG",
-      "originalFile": "File:Mausoleum of Hung King.JPG",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Mausoleum_of_Hung_King.JPG/960px-Mausoleum_of_Hung_King.JPG",
-      "bytes": 491053
-    },
-    "phat-dan": {
-      "src": "/event/phat-dan.jpg",
-      "alt": {
-        "vi": "Nghi thức tắm Phật trong lễ Phật đản tại Indonesia",
-        "en": "The Buddha-bathing ritual during Vesak in Indonesia"
-      },
-      "width": 960,
-      "height": 640,
-      "author": "Albert Ivan Damanik",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indonesia_Buddhists_Vesak_Day.jpg",
-      "originalFile": "File:Indonesia Buddhists Vesak Day.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Indonesia_Buddhists_Vesak_Day.jpg/960px-Indonesia_Buddhists_Vesak_Day.jpg",
-      "bytes": 166646
-    },
-    "doan-ngo": {
-      "src": "/event/doan-ngo.jpg",
-      "alt": {
-        "vi": "Cơm rượu, món ăn truyền thống trong Tết Đoan Ngọ",
-        "en": "Fermented rice traditionally eaten during Tet Doan Ngo"
-      },
-      "width": 960,
-      "height": 720,
-      "author": "Jess Lander from Los Angeles, CA, USA",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Comruou.jpg",
-      "originalFile": "File:Comruou.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Comruou.jpg/960px-Comruou.jpg",
-      "bytes": 120645
-    },
-    "vu-lan": {
-      "src": "/event/vu-lan.jpg",
-      "alt": {
-        "vi": "Hoa hồng tượng trưng cho nghi thức bông hồng cài áo trong lễ Vu Lan",
-        "en": "A rose symbolizing the rose-pinning tradition during Vu Lan"
-      },
-      "width": 960,
-      "height": 636,
-      "author": "Serhio Magpie",
+      "author": "The President's Office, Maldives",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_rose_in_Mykolaiv.jpg",
-      "originalFile": "File:Red rose in Mykolaiv.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Red_rose_in_Mykolaiv.jpg/960px-Red_rose_in_Mykolaiv.jpg",
-      "bytes": 111185
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Environment_Day_2023_function_in_Maldives_(41).jpg",
+      "originalFile": "File:World Environment Day 2023 function in Maldives (41).jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/World_Environment_Day_2023_function_in_Maldives_%2841%29.jpg/960px-World_Environment_Day_2023_function_in_Maldives_%2841%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 46322,
+      "sha256": "e6d1e3a56d8f67aeede617e55b1df997323659e1549925673b7dd486342a8685",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     },
-    "mid-autumn": {
-      "src": "/event/mid-autumn.jpg",
+    "halloween": {
+      "src": "/event/halloween-16x9.webp",
       "alt": {
-        "vi": "Bánh Trung thu Việt Nam",
-        "en": "Vietnamese Mid-Autumn Festival mooncakes"
+        "vi": "Người hóa trang diễu hành Halloween ở New York",
+        "en": "Costumed participants at New York’s Halloween parade"
       },
       "width": 960,
       "height": 540,
-      "author": "Donald Trung",
-      "license": "CC BY-SA 4.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Different_flavours_of_Vietnamese_mid-Autumn_festival_moon_cakes_(2017).jpg",
-      "originalFile": "File:Different flavours of Vietnamese mid-Autumn festival moon cakes (2017).jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Different_flavours_of_Vietnamese_mid-Autumn_festival_moon_cakes_%282017%29.jpg/960px-Different_flavours_of_Vietnamese_mid-Autumn_festival_moon_cakes_%282017%29.jpg",
-      "bytes": 75825
+      "author": "Tzim78",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Skeleton_Masked_People_at_the_2016_NYC_Halloween_Parade.jpg",
+      "originalFile": "File:Skeleton Masked People at the 2016 NYC Halloween Parade.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Skeleton_Masked_People_at_the_2016_NYC_Halloween_Parade.jpg/960px-Skeleton_Masked_People_at_the_2016_NYC_Halloween_Parade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 96102,
+      "sha256": "53f47f8c4095da85678e7e31718d6cc13005cb27af38cbcbedcda50636ce2390",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     },
-    "kitchen-gods": {
-      "src": "/event/kitchen-gods.jpg",
+    "christmas-eve": {
+      "src": "/event/christmas-eve-16x9.webp",
       "alt": {
-        "vi": "Tranh Đông Hồ ông Táo",
-        "en": "A Dong Ho folk painting of the Kitchen Gods"
-      },
-      "width": 454,
-      "height": 614,
-      "author": "Vietnamese artist",
-      "license": "Public domain",
-      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tranh_%C4%90%C3%B4ng_H%E1%BB%93_%C3%94ng_T%C3%A1o.jpg",
-      "originalFile": "File:Tranh Đông Hồ Ông Táo.jpg",
-      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/6/67/Tranh_%C4%90%C3%B4ng_H%E1%BB%93_%C3%94ng_T%C3%A1o.jpg",
-      "bytes": 65484
-    },
-    "lunar-new-years-eve": {
-      "src": "/event/lunar-new-years-eve.jpg",
-      "alt": {
-        "vi": "Mâm lễ Tết tại Huế tượng trưng cho lễ tất niên và đón năm mới âm lịch",
-        "en": "Tet offerings in Hue symbolizing year-end traditions and welcoming the lunar new year"
+        "vi": "Cộng đoàn tham dự thánh lễ đêm Giáng sinh",
+        "en": "Congregation attending Christmas Eve Mass"
       },
       "width": 960,
-      "height": 1280,
-      "author": "Titti Nguyen",
+      "height": 540,
+      "author": "Marburg79",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christmas_Eve_Mass_2011.JPG",
+      "originalFile": "File:Christmas Eve Mass 2011.JPG",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Christmas_Eve_Mass_2011.JPG/960px-Christmas_Eve_Mass_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 96824,
+      "sha256": "5a76433c3c7abb148f0f37015cdc550b7f577ee15eca528377c7fd2ce702a204",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "christmas-day": {
+      "src": "/event/christmas-day-16x9.webp",
+      "alt": {
+        "vi": "Dàn hợp xướng tại chợ Giáng sinh Bloor Street",
+        "en": "A choir at the Bloor Street Christmas market"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Chicken4War",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choir,_Bloor_Street_Christmas_market_2025.jpg",
+      "originalFile": "File:Choir, Bloor Street Christmas market 2025.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Choir%2C_Bloor_Street_Christmas_market_2025.jpg/960px-Choir%2C_Bloor_Street_Christmas_market_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 134116,
+      "sha256": "ed1f6ec9bdf6f7e75d2101e26b311d8c825cf67355017f64485924727d92a1a0",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "new-years-eve": {
+      "src": "/event/new-years-eve-16x9.webp",
+      "alt": {
+        "vi": "Đám đông đón giao thừa dương lịch tại Sydney",
+        "en": "Crowds welcoming New Year’s Eve in Sydney"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Studio Sarah Lou",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg",
-      "originalFile": "File:Tet offerings, Hue 2011.jpg",
-      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Tet_offerings%2C_Hue_2011.jpg/960px-Tet_offerings%2C_Hue_2011.jpg",
-      "bytes": 422827
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_Crowds_(4274071429).jpg",
+      "originalFile": "File:New Year's Eve Crowds (4274071429).jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/New_Year%27s_Eve_Crowds_%284274071429%29.jpg/960px-New_Year%27s_Eve_Crowds_%284274071429%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 131036,
+      "sha256": "abd5bde85a9bece16d50466319077e4deb28a15d0f09fe34ab3c702aadb191e5",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "new-year": {
+      "src": "/event/new-year-16x9.webp",
+      "alt": {
+        "vi": "Người tham gia diễu hành ngày đầu năm mới tại London",
+        "en": "Participants at London’s New Year’s Day parade"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Roy Katzenberg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:London%27s_New_Year%27s_Day_Parade_2014.jpg",
+      "originalFile": "File:London's New Year's Day Parade 2014.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/London%27s_New_Year%27s_Day_Parade_2014.jpg/960px-London%27s_New_Year%27s_Day_Parade_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 93060,
+      "sha256": "e0fca0a1633002af480ace659f6d82f2fc3c10ad68f8990708ce4434963d0e07",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "communist-party-founding": {
+      "src": "/event/communist-party-founding-16x9.webp",
+      "alt": {
+        "vi": "Trường Chinh trình bày báo cáo tại Đại hội II của Đảng năm 1951",
+        "en": "Truong Chinh presenting a report at the Party’s second congress in 1951"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:ICP_1951c,_II_Party_Congress.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ICP_1951c,_II_Party_Congress.jpg",
+      "originalFile": "File:ICP 1951c, II Party Congress.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/6/62/ICP_1951c%2C_II_Party_Congress.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "bytes": 46582,
+      "sha256": "c077a373c4331329298798ae6cc5743cca974784f1979b6e17bcbcdef28dc8f1",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "international-womens-day": {
+      "src": "/event/international-womens-day-16x9.webp",
+      "alt": {
+        "vi": "Người tham gia diễu hành Ngày Quốc tế Phụ nữ tại Chicago",
+        "en": "Participants in Chicago’s International Women’s Day march"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "paul goyette",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicago_International_Women%27s_Day_March_-_2026_-_33.jpg",
+      "originalFile": "File:Chicago International Women's Day March - 2026 - 33.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Chicago_International_Women%27s_Day_March_-_2026_-_33.jpg/960px-Chicago_International_Women%27s_Day_March_-_2026_-_33.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 105428,
+      "sha256": "e0af347eeb9ce0c61e3af9e5d43378115ef6e21cb7bc938e77415974e9cc43a9",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "labor-day": {
+      "src": "/event/labor-day-16x9.webp",
+      "alt": {
+        "vi": "Người lao động diễu hành ngày Quốc tế Lao động tại Berlin",
+        "en": "Workers marching on International Workers’ Day in Berlin"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Reise Reise",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1.-Mai-Demonstration_Berlin_2005_(1).jpg",
+      "originalFile": "File:1.-Mai-Demonstration Berlin 2005 (1).jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/1.-Mai-Demonstration_Berlin_2005_%281%29.jpg/960px-1.-Mai-Demonstration_Berlin_2005_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 156054,
+      "sha256": "eac3da70a191ed0dcb8ddea25b90ab9e442cff7729366b446f0a259355f2bc0b",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "vietnamese-womens-day": {
+      "src": "/event/vietnamese-womens-day-16x9.webp",
+      "alt": {
+        "vi": "Nữ sinh Việt Nam mặc áo dài tại Đại học Bách khoa Hà Nội",
+        "en": "Vietnamese women students wearing ao dai at Hanoi University of Technology"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "en:user:Xcanbiet",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HUT_students_in_ao_dai.jpg",
+      "originalFile": "File:HUT students in ao dai.jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/0/04/HUT_students_in_ao_dai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "bytes": 88180,
+      "sha256": "93264b9259bc7fd28a1ac966f11bfeb2c6642bb83334a0b82f561959ee37de27",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "vietnam-culture-day": {
+      "src": "/event/vietnam-culture-day-16x9.webp",
+      "alt": {
+        "vi": "Người biểu diễn múa truyền thống Việt Nam",
+        "en": "Performers celebrating Vietnamese traditional dance"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Bngann1508",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_dance_celebrate_new_year.jpg",
+      "originalFile": "File:Vietnamese dance celebrate new year.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Vietnamese_dance_celebrate_new_year.jpg/960px-Vietnamese_dance_celebrate_new_year.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 42874,
+      "sha256": "16e47159510dc9141566f08c190f1af5b291630a663de797c07b58523b0194ea",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "tet": {
+      "src": "/event/tet-16x9.webp",
+      "alt": {
+        "vi": "Người dân tham gia sinh hoạt Tết Nguyên đán",
+        "en": "People celebrating Vietnamese Lunar New Year"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "calflier001",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SAIGON_HO_CHI_MINH_CITY_DURING_TET(NEW_YEAR)_CELEBRATIONS_VIETNAM_JAN_2012_(7041595473).jpg",
+      "originalFile": "File:SAIGON HO CHI MINH CITY DURING TET(NEW YEAR) CELEBRATIONS VIETNAM JAN 2012 (7041595473).jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/SAIGON_HO_CHI_MINH_CITY_DURING_TET%28NEW_YEAR%29_CELEBRATIONS_VIETNAM_JAN_2012_%287041595473%29.jpg/960px-SAIGON_HO_CHI_MINH_CITY_DURING_TET%28NEW_YEAR%29_CELEBRATIONS_VIETNAM_JAN_2012_%287041595473%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 129662,
+      "sha256": "9d557f4ef061cfd3df9a0578d1a2fe1ece5a425e7ad2a6cf38025da75a96abc0",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "phat-dan": {
+      "src": "/event/phat-dan-16x9.webp",
+      "alt": {
+        "vi": "Người tham dự Đại lễ Phật đản năm 2024",
+        "en": "People attending Vesak celebrations in 2024"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://baochinhphu.vn/hinh-anh-dai-le-phat-dan-2024-tai-cac-nuoc-102240522144837818.htm",
+      "sourceUrl": "https://baochinhphu.vn/hinh-anh-dai-le-phat-dan-2024-tai-cac-nuoc-102240522144837818.htm",
+      "originalFile": "dai-le-phat-dan-1-1716363776579653153585.jpg",
+      "downloadedFrom": "https://bcp.cdnchinhphu.vn/334894974524682240/2024/5/22/dai-le-phat-dan-1-1716363776579653153585.jpg",
+      "bytes": 87010,
+      "sha256": "e48ba3913cd0e07f058645c63833f48d72934217c3eb76362a8663b4c469303d",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "youth-union-founding": {
+      "src": "/event/youth-union-founding-16x9.webp",
+      "alt": {
+        "vi": "Lễ kỷ niệm ngày thành lập Đoàn và Lễ hội Thanh niên tại TPHCM",
+        "en": "Youth Union anniversary celebration and Youth Festival in Ho Chi Minh City"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://tphcm.chinhphu.vn/ky-niem-93-nam-thanh-lap-doan-va-khai-mac-le-hoi-thanh-nien-2024-101240322222234888.htm",
+      "sourceUrl": "https://tphcm.chinhphu.vn/ky-niem-93-nam-thanh-lap-doan-va-khai-mac-le-hoi-thanh-nien-2024-101240322222234888.htm",
+      "originalFile": "z5275198108136595424a6e4a6c69077889e9e7899bd3f-1711120627013389234676.jpg",
+      "downloadedFrom": "https://tphcm.cdnchinhphu.vn/334895287454388224/2024/3/22/z5275198108136595424a6e4a6c69077889e9e7899bd3f-1711120627013389234676.jpg",
+      "bytes": 79130,
+      "sha256": "6d1866425e3afa996bc32722eb63fe9be199ddf81245b426c219fa38ed9d0a18",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "reunification-day": {
+      "src": "/event/reunification-day-16x9.webp",
+      "alt": {
+        "vi": "Người dân đón lễ kỷ niệm ngày thống nhất đất nước tại TPHCM",
+        "en": "People celebrating Reunification Day in Ho Chi Minh City"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://media.chinhphu.vn/nguoi-dan-hao-huc-cho-don-le-dieu-binh-dieu-hanh-ngay-30-4-102250429232242773.htm",
+      "sourceUrl": "https://media.chinhphu.vn/nguoi-dan-hao-huc-cho-don-le-dieu-binh-dieu-hanh-ngay-30-4-102250429232242773.htm",
+      "originalFile": "hinh-3-dong-nguoi-17459430838341058491807.jpg",
+      "downloadedFrom": "https://bcp.cdnchinhphu.vn/334894974524682240/2025/4/29/hinh-3-dong-nguoi-17459430838341058491807.jpg",
+      "bytes": 136412,
+      "sha256": "9a481cb5674719b38e4f90b170d95968fd3e01bb501af6b4d15fc82735627da7",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "war-invalids-and-martyrs": {
+      "src": "/event/war-invalids-and-martyrs-16x9.webp",
+      "alt": {
+        "vi": "Đoàn viên tri ân các anh hùng liệt sĩ dịp 27 tháng 7",
+        "en": "Youth paying tribute to fallen heroes for War Invalids and Martyrs Day"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://vpcp.chinhphu.vn/thap-lua-tri-an-tuoi-tre-chinh-phu-viet-tiep-dao-ly-uong-nuoc-nho-nguon-115260727123000956.htm",
+      "sourceUrl": "https://vpcp.chinhphu.vn/thap-lua-tri-an-tuoi-tre-chinh-phu-viet-tiep-dao-ly-uong-nuoc-nho-nguon-115260727123000956.htm",
+      "originalFile": "base64-17851293664061474885859.png",
+      "downloadedFrom": "https://bcp.cdnchinhphu.vn/350555282988298240/2026/7/27/base64-17851293664061474885859.png",
+      "bytes": 121936,
+      "sha256": "caeaab70c255c078fb6feae0f864c5dbb06e74df06972d5a40147eb5562373e5",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "national-day": {
+      "src": "/event/national-day-16x9.webp",
+      "alt": {
+        "vi": "Lực lượng tham gia diễu binh chào mừng Quốc khánh Việt Nam",
+        "en": "Participants in the parade commemorating Vietnam’s National Day"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://xaydungchinhsach.chinhphu.vn/so-duyet-dieu-binh-dieu-hanh-a80-119250827102520534.htm",
+      "sourceUrl": "https://xaydungchinhsach.chinhphu.vn/so-duyet-dieu-binh-dieu-hanh-a80-119250827102520534.htm",
+      "originalFile": "img0052-17563424316471553983774-1756344362182-1756344362261673092904-65-0-1033-1548-crop-1756344394985727310356.jpg",
+      "downloadedFrom": "https://xdcs.cdnchinhphu.vn/446259493575335936/2025/8/28/img0052-17563424316471553983774-1756344362182-1756344362261673092904-65-0-1033-1548-crop-1756344394985727310356.jpg",
+      "bytes": 100620,
+      "sha256": "f2f9d1cf624ab05a82ee561f3332ffc4e3726770cf190a958388915517c06bac",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "family-day": {
+      "src": "/event/family-day-16x9.webp",
+      "alt": {
+        "vi": "Gia đình tham gia hoạt động văn hóa nhân Ngày Gia đình Việt Nam",
+        "en": "Families taking part in Vietnamese Family Day cultural activities"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanglong.chinhphu.vn/da-dang-hoat-dong-ngay-hoi-gia-dinh-tai-lang-van-hoa-du-lich-cac-dan-toc-viet-nam-10326052913145022.htm",
+      "sourceUrl": "https://thanglong.chinhphu.vn/da-dang-hoat-dong-ngay-hoi-gia-dinh-tai-lang-van-hoa-du-lich-cac-dan-toc-viet-nam-10326052913145022.htm",
+      "originalFile": "z7778614903249799f0163691662ccad3a79a34dfb906f-177759851705113702883-1780035098034482485652.jpg",
+      "downloadedFrom": "https://tl.cdnchinhphu.vn/344445545208135680/2026/5/29/z7778614903249799f0163691662ccad3a79a34dfb906f-177759851705113702883-1780035098034482485652.jpg",
+      "bytes": 133048,
+      "sha256": "4e083807fd1534c854276a648f0cb11a78ff32026de1d8303e81ac8e40bbe004",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "childrens-day": {
+      "src": "/event/childrens-day-16x9.webp",
+      "alt": {
+        "vi": "Trẻ em tham gia hoạt động trải nghiệm nhân Quốc tế Thiếu nhi",
+        "en": "Children taking part in International Children’s Day activities"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanglong.chinhphu.vn/mot-ngay-rong-choi-gan-ket-gia-dinh-nhan-dip-quoc-te-thieu-nhi-1-6-103260527101153035.htm",
+      "sourceUrl": "https://thanglong.chinhphu.vn/mot-ngay-rong-choi-gan-ket-gia-dinh-nhan-dip-quoc-te-thieu-nhi-1-6-103260527101153035.htm",
+      "originalFile": "z7840117513149da06ac0e2ccc77743c6370c196f3c635-17798512177651880714089.jpg",
+      "downloadedFrom": "https://tl.cdnchinhphu.vn/344445545208135680/2026/5/27/z7840117513149da06ac0e2ccc77743c6370c196f3c635-17798512177651880714089.jpg",
+      "bytes": 182194,
+      "sha256": "a5e5b22cc3b778f0186d9c4494be76784c06ee9513c220f8dc41a1e2626906c3",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "han-thuc": {
+      "src": "/event/han-thuc-16x9.webp",
+      "alt": {
+        "vi": "Cô giáo và trẻ em làm bánh trôi trong Tết Hàn thực",
+        "en": "Teachers and children making rice dumplings for Han Thuc Festival"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Trường Mầm non Nguyên Lý",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://mnnguyenly.ninhbinh.edu.vn/hoat-dong-trai-nghiem-tet-han-thuc/",
+      "sourceUrl": "https://mnnguyenly.ninhbinh.edu.vn/hoat-dong-trai-nghiem-tet-han-thuc/",
+      "originalFile": "672683939_122128185117016559_4778595214525807515_n.jpg",
+      "downloadedFrom": "https://mnnguyenly.ninhbinh.edu.vn/wp-content/uploads/2026/05/672683939_122128185117016559_4778595214525807515_n.jpg",
+      "bytes": 69938,
+      "sha256": "7bfb2bbcf6b9ee2f6594fc8f97a9a8f6f0c1030144710207549f531f3b8eadf5",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "army-and-national-defense-day": {
+      "src": "/event/army-and-national-defense-day-16x9.webp",
+      "alt": {
+        "vi": "Đại biểu dự lễ kỷ niệm ngày thành lập Quân đội nhân dân Việt Nam",
+        "en": "Delegates at the Vietnamese People’s Army anniversary ceremony"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Báo Nhân Dân",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://nhandan.vn/anh-le-ky-niem-80-nam-ngay-thanh-lap-quan-doi-nhan-dan-viet-nam-va-35-nam-ngay-hoi-quoc-phong-toan-dan-post851611.html",
+      "sourceUrl": "https://nhandan.vn/anh-le-ky-niem-80-nam-ngay-thanh-lap-quan-doi-nhan-dan-viet-nam-va-35-nam-ngay-hoi-quoc-phong-toan-dan-post851611.html",
+      "originalFile": "dsc-8482-1828.jpg.avif",
+      "downloadedFrom": "https://cdn.nhandan.vn/images/HqGuejFdiPxvv0NpYIJhFaWn7kxcK_nrlaPR6lmRl5x3BIIG7j67ULSBWOCIUzc0wu2XKZ5RfPMuZZskHgiNkA/dsc-8482-1828.jpg.avif",
+      "bytes": 133798,
+      "sha256": "01cc0b3165cfa8f2f1c1d76b4d66ea92def30b2be26f79f90201aca0db40b19e",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "teachers-day": {
+      "src": "/event/teachers-day-16x9.webp",
+      "alt": {
+        "vi": "Chương trình tri ân nhà giáo nhân Ngày Nhà giáo Việt Nam",
+        "en": "A ceremony honoring teachers on Vietnamese Teachers’ Day"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://tranhongha.chinhphu.vn/pho-thu-tuong-tran-hong-ha-phat-bieu-tai-chuong-trinh-thay-loi-tri-an-nhan-ngay-nha-giao-viet-nam-120231120151559412.htm",
+      "sourceUrl": "https://tranhongha.chinhphu.vn/pho-thu-tuong-tran-hong-ha-phat-bieu-tai-chuong-trinh-thay-loi-tri-an-nhan-ngay-nha-giao-viet-nam-120231120151559412.htm",
+      "originalFile": "z48960897215505a1b6ae5ce5e4504dcfcc44d41145526-1700468089298143889832.jpg",
+      "downloadedFrom": "https://bcp.cdnchinhphu.vn/536814799693770752/2023/11/20/z48960897215505a1b6ae5ce5e4504dcfcc44d41145526-1700468089298143889832.jpg",
+      "bytes": 47602,
+      "sha256": "1a01d8f54628beae69a0239b8d50345af88796e2de20e796c3bb8655f476bcbb",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "vu-lan": {
+      "src": "/event/vu-lan-16x9.webp",
+      "alt": {
+        "vi": "Phật tử tham dự nghi thức bông hồng cài áo trong lễ Vu Lan",
+        "en": "Buddhists attending the rose-pinning ceremony during Vu Lan"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Hồng Quang / Tuổi Trẻ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://tuoitre.vn/bong-hong-cai-ao-va-nhung-giot-nuoc-mat-roi-tai-le-vu-lan-thang-7-20240817071839284.htm",
+      "sourceUrl": "https://tuoitre.vn/bong-hong-cai-ao-va-nhung-giot-nuoc-mat-roi-tai-le-vu-lan-thang-7-20240817071839284.htm",
+      "originalFile": "base64-1723853020886705492522.jpeg",
+      "downloadedFrom": "https://cdn.tuoitre.vn/471584752817336320/2024/8/17/base64-1723853020886705492522.jpeg",
+      "bytes": 139890,
+      "sha256": "3d7f0fcebebd2a99a6304abe3b9b471a9ea6d41c49bd00436c08c6e3a30ca83e",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "august-revolution": {
+      "src": "/event/august-revolution-16x9.webp",
+      "alt": {
+        "vi": "Người tham dự chương trình kỷ niệm Cách mạng tháng Tám tại Hà Nội",
+        "en": "People attending the August Revolution commemoration in Hanoi"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanglong.chinhphu.vn/album/thu-tuong-chinh-phu-pham-minh-chinh-du-chuong-trinh-nghe-thuat-dac-biet-ha-noi-tu-mua-thu-lich-su-nam-1945-501.htm",
+      "sourceUrl": "https://thanglong.chinhphu.vn/album/thu-tuong-chinh-phu-pham-minh-chinh-du-chuong-trinh-nghe-thuat-dac-biet-ha-noi-tu-mua-thu-lich-su-nam-1945-501.htm",
+      "originalFile": "img4914-1755274850855489403564.jpg",
+      "downloadedFrom": "https://tl.cdnchinhphu.vn/344445545208135680/2025/8/15/img4914-1755274850855489403564.jpg",
+      "bytes": 86742,
+      "sha256": "609f1f70569554c475f97be936f16138ec2de977aa41d63a1b7e84fcb41ad428",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "doctors-day": {
+      "src": "/event/doctors-day-16x9.webp",
+      "alt": {
+        "vi": "Hoạt động chúc mừng các y bác sĩ nhân Ngày Thầy thuốc Việt Nam",
+        "en": "A celebration honoring doctors on Vietnamese Doctors’ Day"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "VGP/GO",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://vpcp.chinhphu.vn/doi-ngu-y-bac-si-luon-phat-huy-pham-chat-luong-y-nhu-tu-mau-115250227125956658.htm",
+      "sourceUrl": "https://vpcp.chinhphu.vn/doi-ngu-y-bac-si-luon-phat-huy-pham-chat-luong-y-nhu-tu-mau-115250227125956658.htm",
+      "originalFile": "a1-1740635737307856275244.jpg",
+      "downloadedFrom": "https://bcp.cdnchinhphu.vn/350555282988298240/2025/2/27/a1-1740635737307856275244.jpg",
+      "bytes": 97168,
+      "sha256": "d90097b1fc85c8599b3947cad686d1008b41dd401e9eb7ceee34ad5bec10454a",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "nguyen-tieu": {
+      "src": "/event/nguyen-tieu-16x9.webp",
+      "alt": {
+        "vi": "Biểu diễn trong Đêm hội Nguyên tiêu tại TPHCM",
+        "en": "A performance at the Nguyen Tieu Festival in Ho Chi Minh City"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://tphcm.chinhphu.vn/khai-mac-dem-hoi-nguyen-tieu-2022-101220215221139183.htm",
+      "sourceUrl": "https://tphcm.chinhphu.vn/khai-mac-dem-hoi-nguyen-tieu-2022-101220215221139183.htm",
+      "originalFile": "c15a4236-1644937405611832085785.jpg",
+      "downloadedFrom": "https://tphcm.cdnchinhphu.vn/334895287454388224/2022/2/15/c15a4236-1644937405611832085785.jpg",
+      "bytes": 136806,
+      "sha256": "a80bfd9a717615e4ea58ee2d57fdf7c1148ae2b2d88e1585c95c8e8a70d6641b",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "mid-autumn": {
+      "src": "/event/mid-autumn-16x9.webp",
+      "alt": {
+        "vi": "Trẻ em vui Tết Trung thu tại Hoàng thành Thăng Long",
+        "en": "Children celebrating Mid-Autumn Festival at Thang Long Imperial Citadel"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanglong.chinhphu.vn/khai-mac-vui-tet-trung-thu-tai-hoang-thanh-thang-long-10327420.htm",
+      "sourceUrl": "https://thanglong.chinhphu.vn/khai-mac-vui-tet-trung-thu-tai-hoang-thanh-thang-long-10327420.htm",
+      "originalFile": "trung%20thu%2008.jpg",
+      "downloadedFrom": "https://tl.cdnchinhphu.vn/Uploads/images/trung%20thu%2008.jpg",
+      "bytes": 72132,
+      "sha256": "5a09201faad79fdddc5fc5638dedc18f34b87761d701ea4bd68406a943bc2e80",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "kitchen-gods": {
+      "src": "/event/kitchen-gods-16x9.webp",
+      "alt": {
+        "vi": "Người dân thả cá chép tiễn ông Công ông Táo",
+        "en": "People releasing carp for Kitchen Gods Day"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Cổng Thông tin điện tử Chính phủ",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanglong.chinhphu.vn/nguoi-dan-tha-ca-chep-tien-ong-cong-ong-tao-ve-troi-10324020215311006.htm",
+      "sourceUrl": "https://thanglong.chinhphu.vn/nguoi-dan-tha-ca-chep-tien-ong-cong-ong-tao-ve-troi-10324020215311006.htm",
+      "originalFile": "ca2-17068622987101510192518.jpg",
+      "downloadedFrom": "https://tl.cdnchinhphu.vn/344445545208135680/2024/2/2/ca2-17068622987101510192518.jpg",
+      "bytes": 64494,
+      "sha256": "3cde3872fde10f8e6ad6c77a4f624c6ef837c43b5aafb0720251d8a2e8b43052",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "doan-ngo": {
+      "src": "/event/doan-ngo-16x9.webp",
+      "alt": {
+        "vi": "Người dân chuẩn bị thực phẩm truyền thống trong Tết Đoan Ngọ",
+        "en": "People preparing traditional foods for Doan Ngo Festival"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Báo Nhân Dân",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://nhandan.vn/anh-tet-doan-ngo-cua-nguoi-ha-noi-post758778.html",
+      "sourceUrl": "https://nhandan.vn/anh-tet-doan-ngo-cua-nguoi-ha-noi-post758778.html",
+      "originalFile": "3-5703.jpg.avif",
+      "downloadedFrom": "https://cdn.nhandan.vn/images/HvOYxOL7S_B5gKLe14Wz79J5SJhih4vHHrDs_gcwIjhIvQEAfYlxjLuwfhBK3_rk/3-5703.jpg.avif",
+      "bytes": 109168,
+      "sha256": "069f7969fbcb8f8a860af347d06ae3e62ecfdeca2c52f076ad3297bef585246b",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "dien-bien-phu-victory": {
+      "src": "/event/dien-bien-phu-victory-16x9.webp",
+      "alt": {
+        "vi": "Bộ đội tiến qua cầu Mường Thanh trong chiến dịch Điện Biên Phủ",
+        "en": "Vietnamese troops crossing Muong Thanh Bridge in the Dien Bien Phu campaign"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Adam Jones from Kelowna, BC, Canada",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_(1954)_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_(48159225792).jpg",
+      "originalFile": "File:Contemporary Photo of Vietnminh Storming across Muong Thanh Bridge (1954) - Dien Bien Phu Victory Museum - Dien Bien Phu - Vietnam (48159225792).jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_%281954%29_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_%2848159225792%29.jpg/960px-Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_%281954%29_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_%2848159225792%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "bytes": 62422,
+      "sha256": "631c2ba1bae78901d9635af5388f12bee590cf649f2dfbf65324d8be6d367cdf",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "ho-chi-minh-birthday": {
+      "src": "/event/ho-chi-minh-birthday-16x9.webp",
+      "alt": {
+        "vi": "Chủ tịch Hồ Chí Minh gặp gỡ thiếu nhi",
+        "en": "President Ho Chi Minh meeting children"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Musée Annam",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Ho-chi-Minh_with_children_(7).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ho-chi-Minh_with_children_(7).jpg",
+      "originalFile": "File:Ho-chi-Minh with children (7).jpg",
+      "downloadedFrom": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ho-chi-Minh_with_children_%287%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "bytes": 98272,
+      "sha256": "c6342290c33558cfd46707becafe858496b7f40a3650b258dac53d371eecfdce",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "hung-kings": {
+      "src": "/event/hung-kings-16x9.webp",
+      "alt": {
+        "vi": "Người tham gia rước kiệu trong lễ hội Đền Hùng",
+        "en": "Participants carrying palanquins at the Hung Kings Temple Festival"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "PetroTimes",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://petrotimes.vn/doc-dao-le-ruoc-kieu-ve-den-hung-2024-709438.html",
+      "sourceUrl": "https://petrotimes.vn/doc-dao-le-ruoc-kieu-ve-den-hung-2024-709438.html",
+      "originalFile": "320240415151558.png",
+      "downloadedFrom": "https://cdn.petrotimes.vn/stores/news_dataimages/2024/042024/15/15/320240415151558.png",
+      "bytes": 62628,
+      "sha256": "c54aa027ff01e4e139750ca178cb17fb6696c16c5b6b11216e7a6f1fe121e378",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
+    },
+    "lunar-new-years-eve": {
+      "src": "/event/lunar-new-years-eve-16x9.webp",
+      "alt": {
+        "vi": "Người dân đón giao thừa Tết Nguyên đán bên hồ Hoàn Kiếm",
+        "en": "People welcoming Lunar New Year’s Eve at Hoan Kiem Lake"
+      },
+      "width": 960,
+      "height": 540,
+      "author": "Nguyễn Trường / Thanh Niên",
+      "license": "Copyright — see original source",
+      "licenseUrl": "https://thanhnien.vn/nguoi-ha-noi-du-xuan-ngam-phao-hoa-giao-thua-trong-troi-lanh-10-do-c-185250129005326195.htm",
+      "sourceUrl": "https://thanhnien.vn/nguoi-ha-noi-du-xuan-ngam-phao-hoa-giao-thua-trong-troi-lanh-10-do-c-185250129005326195.htm",
+      "originalFile": "z62710895717335028328589395a31a0e1564dd9d91fbe-1738086234309762358342.jpg",
+      "downloadedFrom": "https://images2.thanhnien.vn/528068263637045248/2025/1/28/z62710895717335028328589395a31a0e1564dd9d91fbe-1738086234309762358342.jpg",
+      "bytes": 38562,
+      "sha256": "3e18910105e99d097bdb2cc2be7e36b361c060a53967907068053d7e36cffc0b",
+      "changes": "Cropped to 16:9 and resized to 960x540; WebP encoding. Original photographic background retained; no background removal or added blur."
     }
   }
 }

@@ -1,60 +1,46 @@
-# Ảnh tượng trưng cho sự kiện
+# Ảnh sự kiện
 
-Đã rà toàn bộ 36 định nghĩa sự kiện và chọn một ảnh riêng cho từng event.
-Ảnh được tìm trên Wikipedia/Wikimedia Commons, kiểm tra mô tả và giấy phép,
-lưu nguyên bản thumbnail vào `public/event`. Metadata nguồn đầy đủ ở
-`public/event/sources.json`; dữ liệu sử dụng trong app ở `event-images.ts`.
+Toàn bộ 36 sự kiện sử dụng ảnh mới có yếu tố con người trong bối cảnh phù hợp. Ảnh được cắt thành 16:9 (960 × 540), lưu WebP tại public/event; giữ phông nền gốc, không tách nền hoặc thêm làm mờ. Ảnh quốc tế ghi đúng địa điểm trong alt, không mô tả thành hoạt động tại Việt Nam.
 
-Ảnh tư liệu ghi đúng bối cảnh; ảnh biểu tượng được chú thích rõ là tượng trưng.
-Không coi ảnh lễ ở nước khác là ảnh lễ tổ chức tại Việt Nam. Các ví dụ chọn theo
-phong tục: bánh trôi cho Hàn thực, cơm rượu cho Đoan Ngọ, bánh Trung thu Việt Nam,
-tranh Đông Hồ ông Táo và hoa hồng cho nghi thức bông hồng cài áo của Vu Lan.
+Dữ liệu ứng dụng ở src/core/calendar-events/event-images.ts. Nguồn, tác giả, giấy phép, URL tải, chỉnh sửa và checksum ở public/event/sources.json. Ảnh báo chí giữ nhãn copyright của nguồn, không được gán giấy phép Creative Commons.
 
-Đối chiếu biểu tượng Vu Lan: [Ủy ban Nhà nước về người Việt Nam ở nước ngoài](https://scov.gov.vn/van-hoc-nghe-thuat/tan-van/tan-man-mua-vu-lan.html).
-Ngày Văn hóa Việt Nam 24/11 và mốc hiệu lực vẫn theo [Nghị quyết 28/2026/QH16](https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-28-2026-qh16-ve-phat-trien-van-hoa-viet-nam-119260508142130402.htm).
-
-Dialog hiển thị ảnh; chú thích nằm trong alt, tác giả, nguồn và giấy phép được lưu trong dữ liệu ảnh. Dùng
-`object-contain` để giữ nguyên nội dung cờ, tranh, áp phích và ảnh dọc. Next.js
-precache các ảnh trong public qua Serwist; Vite dùng chung publicDir để đóng
-gói ảnh vào Android/iOS. Không cần tải ảnh từ Wikimedia khi mở Dialog.
+Dialog hiển thị khung aspect-video. Serwist precache ảnh WebP; Vite publicDir đóng gói cùng ảnh cho Android/iOS, nên Dialog dùng ảnh nội bộ khi offline sau khi cache hoàn tất hoặc trong bản native.
 
 | Event ID | Nội dung ảnh | Giấy phép | Nguồn |
 | --- | --- | --- | --- |
-| valentines-day | Thiệp Valentine với biểu tượng tình yêu | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Antique_Valentine_1909_01.jpg>) |
-| international-day-of-happiness | Khuôn mặt cười tượng trưng cho Ngày Quốc tế Hạnh phúc | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Smiley.svg>) |
-| april-fools-day | Trò đùa báo chí trong ngày Cá tháng Tư | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Aprilsnar_2001.png>) |
-| world-environment-day | Đôi tay nâng cây non tượng trưng cho việc bảo vệ môi trường | CC BY-SA 3.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Ecologia.jpg>) |
-| halloween | Đèn bí ngô đặc trưng của Halloween | CC BY-SA 2.5 | [Commons](<https://commons.wikimedia.org/wiki/File:Jack-o%27-Lantern_2003-10-31.jpg>) |
-| christmas-eve | Tranh đêm Giáng sinh năm 1878 | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:ChristmasEve1878.jpg>) |
-| christmas-day | Trang trí Giáng sinh tái hiện cảnh Chúa giáng sinh | CC BY-SA 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:NativityChristmasLights2.jpg>) |
-| new-years-eve | Pháo hoa đón giao thừa Dương lịch | CC BY-SA 4.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Fireworks_on_New_Year%27s_Eve_in_a_small_Swabian_village_(1),_brightened.jpg>) |
-| new-year | Pháo hoa mừng năm mới Dương lịch tại Mexico City | CC BY 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Mexico_City_New_Years_2013!_(8333128248).jpg>) |
-| communist-party-founding | Biểu tượng búa liềm của Đảng Cộng sản Việt Nam | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Communist_Party_of_Vietnam_flag_logo.svg>) |
-| doctors-day | Ống nghe y tế tượng trưng cho nghề thầy thuốc | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Stethoscope-2.png>) |
-| international-womens-day | Áp phích Ngày Quốc tế Phụ nữ năm 1914 | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Frauentag_1914_Heraus_mit_dem_Frauenwahlrecht.jpg>) |
-| youth-union-founding | Cờ Đoàn Thanh niên Cộng sản Hồ Chí Minh | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Flag_of_HCM_Communist_Youth_Union.svg>) |
-| reunification-day | Băng rôn kỷ niệm ngày thống nhất đất nước | CC BY-SA 3.0 de | [Commons](<https://commons.wikimedia.org/wiki/File:Reunification_day_banner.jpg>) |
-| labor-day | Hoạt động hưởng ứng Ngày Quốc tế Lao động | CC BY-SA 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:1.Mai_2013_(8697603319).jpg>) |
-| dien-bien-phu-victory | Hình ảnh chiến thắng Điện Biên Phủ | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Victory_in_Battle_of_Dien_Bien_Phu.jpg>) |
-| ho-chi-minh-birthday | Chân dung Chủ tịch Hồ Chí Minh năm 1946 | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg>) |
-| childrens-day | Trẻ em Việt Nam vui chơi trên bãi biển | CC BY 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Vietnamese_children_playing_on_a_beach_(26583299808).jpg>) |
-| family-day | Bữa ăn chung tượng trưng cho sự gắn kết gia đình | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Family_eating_a_meal_(1).jpg>) |
-| war-invalids-and-martyrs | Hoạt động Ngày Thương binh - Liệt sĩ tại Quận 3 | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Ng%C3%A0y_Th%C6%B0%C6%A1ng_Binh_Li%E1%BB%87t_S%C4%A9_t%E1%BA%A1i_qu%E1%BA%ADn_3.JPG>) |
-| august-revolution | Ảnh tư liệu Cách mạng tháng Tám | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:C%C3%A1ch_m%E1%BA%A1ng_th%C3%A1ng_8_b.jpg>) |
-| national-day | Quảng trường Ba Đình ngày 2 tháng 9 năm 1945 | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Ba_Dinh_Square_September_2nd,_1945.jpg>) |
-| vietnamese-womens-day | Phụ nữ Việt Nam trong tà áo dài truyền thống | CC BY-SA 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:White_Ao_Dai_-_8431_-_FLICKR_(cropped).jpg>) |
-| teachers-day | Thầy và trò Trường Mỹ thuật Đông Dương năm 1926, tượng trưng cho truyền thống tôn sư trọng đạo | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Teachers_and_students_of_the_%C3%89cole_Sup%C3%A9rieure_des_Beaux_Arts_de_l%27Indochine,_1926.jpg>) |
-| vietnam-culture-day | Múa rối nước, loại hình nghệ thuật truyền thống Việt Nam | CC BY-SA 3.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Thang_Long_Water_Puppet_Theatre2.JPG>) |
-| army-and-national-defense-day | Quân hiệu Quân đội nhân dân Việt Nam | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Emblem_VPA.svg>) |
-| tet | Đường hoa Nguyễn Huệ trong dịp Tết Nguyên đán | CC BY 3.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Xuan_2016_Binh_Than,_duong_nguyen_hue,_phuong_ben_nghe,_Qu%E1%BA%ADn_1,_TPHCM,_Vi%E1%BB%87t_Nam_-_panoramio.jpg>) |
-| nguyen-tieu | Trăng tròn tượng trưng cho Rằm tháng Giêng | CC0 | [Commons](<https://commons.wikimedia.org/wiki/File:Pournami.jpg>) |
-| han-thuc | Bánh trôi đặc trưng trong Tết Hàn thực | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Banhtroi.JPG>) |
-| hung-kings | Lăng Vua Hùng tại khu di tích Đền Hùng | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Mausoleum_of_Hung_King.JPG>) |
-| phat-dan | Nghi thức tắm Phật trong lễ Phật đản tại Indonesia | CC BY-SA 4.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Indonesia_Buddhists_Vesak_Day.jpg>) |
-| doan-ngo | Cơm rượu, món ăn truyền thống trong Tết Đoan Ngọ | CC BY 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Comruou.jpg>) |
-| vu-lan | Hoa hồng tượng trưng cho nghi thức bông hồng cài áo trong lễ Vu Lan | CC BY 4.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Red_rose_in_Mykolaiv.jpg>) |
-| mid-autumn | Bánh Trung thu Việt Nam | CC BY-SA 4.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Different_flavours_of_Vietnamese_mid-Autumn_festival_moon_cakes_(2017).jpg>) |
-| kitchen-gods | Tranh Đông Hồ ông Táo | Public domain | [Commons](<https://commons.wikimedia.org/wiki/File:Tranh_%C4%90%C3%B4ng_H%E1%BB%93_%C3%94ng_T%C3%A1o.jpg>) |
-| lunar-new-years-eve | Mâm lễ Tết tại Huế tượng trưng cho lễ tất niên và đón năm mới âm lịch | CC BY 2.0 | [Commons](<https://commons.wikimedia.org/wiki/File:Tet_offerings,_Hue_2011.jpg>) |
-
-Tổng dung lượng: 7.34 MiB.
+| valentines-day | Cặp đôi chia sẻ bánh quy dịp Valentine | CC BY 2.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Valentines_couple_sharing_cookie.jpg>) |
+| international-day-of-happiness | Những người phụ nữ cùng cười vui tại Rotterdam | CC BY-SA 3.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Laughing_women_ladiesrun_Rotterdam.JPG>) |
+| april-fools-day | Người tham gia lễ diễu hành Saint Stupid trong ngày Cá tháng Tư | CC BY-SA 3.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:SaintStupid.jpg>) |
+| world-environment-day | Người tham gia hoạt động Ngày Môi trường Thế giới tại Maldives | CC BY 4.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:World_Environment_Day_2023_function_in_Maldives_(41).jpg>) |
+| halloween | Người hóa trang diễu hành Halloween ở New York | CC BY 4.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Skeleton_Masked_People_at_the_2016_NYC_Halloween_Parade.jpg>) |
+| christmas-eve | Cộng đoàn tham dự thánh lễ đêm Giáng sinh | CC BY-SA 3.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Christmas_Eve_Mass_2011.JPG>) |
+| christmas-day | Dàn hợp xướng tại chợ Giáng sinh Bloor Street | CC BY-SA 4.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Choir,_Bloor_Street_Christmas_market_2025.jpg>) |
+| new-years-eve | Đám đông đón giao thừa dương lịch tại Sydney | CC BY 2.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:New_Year%27s_Eve_Crowds_(4274071429).jpg>) |
+| new-year | Người tham gia diễu hành ngày đầu năm mới tại London | CC BY 2.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:London%27s_New_Year%27s_Day_Parade_2014.jpg>) |
+| communist-party-founding | Trường Chinh trình bày báo cáo tại Đại hội II của Đảng năm 1951 | Public domain | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:ICP_1951c,_II_Party_Congress.jpg>) |
+| international-womens-day | Người tham gia diễu hành Ngày Quốc tế Phụ nữ tại Chicago | CC BY 4.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Chicago_International_Women%27s_Day_March_-_2026_-_33.jpg>) |
+| labor-day | Người lao động diễu hành ngày Quốc tế Lao động tại Berlin | CC BY-SA 3.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:1.-Mai-Demonstration_Berlin_2005_(1).jpg>) |
+| vietnamese-womens-day | Nữ sinh Việt Nam mặc áo dài tại Đại học Bách khoa Hà Nội | CC BY-SA 3.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:HUT_students_in_ao_dai.jpg>) |
+| vietnam-culture-day | Người biểu diễn múa truyền thống Việt Nam | CC BY-SA 4.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Vietnamese_dance_celebrate_new_year.jpg>) |
+| tet | Người dân tham gia sinh hoạt Tết Nguyên đán | CC BY-SA 2.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:SAIGON_HO_CHI_MINH_CITY_DURING_TET(NEW_YEAR)_CELEBRATIONS_VIETNAM_JAN_2012_(7041595473).jpg>) |
+| phat-dan | Người tham dự Đại lễ Phật đản năm 2024 | Copyright — see original source | [Nguồn và tác giả](<https://baochinhphu.vn/hinh-anh-dai-le-phat-dan-2024-tai-cac-nuoc-102240522144837818.htm>) |
+| youth-union-founding | Lễ kỷ niệm ngày thành lập Đoàn và Lễ hội Thanh niên tại TPHCM | Copyright — see original source | [Nguồn và tác giả](<https://tphcm.chinhphu.vn/ky-niem-93-nam-thanh-lap-doan-va-khai-mac-le-hoi-thanh-nien-2024-101240322222234888.htm>) |
+| reunification-day | Người dân đón lễ kỷ niệm ngày thống nhất đất nước tại TPHCM | Copyright — see original source | [Nguồn và tác giả](<https://media.chinhphu.vn/nguoi-dan-hao-huc-cho-don-le-dieu-binh-dieu-hanh-ngay-30-4-102250429232242773.htm>) |
+| war-invalids-and-martyrs | Đoàn viên tri ân các anh hùng liệt sĩ dịp 27 tháng 7 | Copyright — see original source | [Nguồn và tác giả](<https://vpcp.chinhphu.vn/thap-lua-tri-an-tuoi-tre-chinh-phu-viet-tiep-dao-ly-uong-nuoc-nho-nguon-115260727123000956.htm>) |
+| national-day | Lực lượng tham gia diễu binh chào mừng Quốc khánh Việt Nam | Copyright — see original source | [Nguồn và tác giả](<https://xaydungchinhsach.chinhphu.vn/so-duyet-dieu-binh-dieu-hanh-a80-119250827102520534.htm>) |
+| family-day | Gia đình tham gia hoạt động văn hóa nhân Ngày Gia đình Việt Nam | Copyright — see original source | [Nguồn và tác giả](<https://thanglong.chinhphu.vn/da-dang-hoat-dong-ngay-hoi-gia-dinh-tai-lang-van-hoa-du-lich-cac-dan-toc-viet-nam-10326052913145022.htm>) |
+| childrens-day | Trẻ em tham gia hoạt động trải nghiệm nhân Quốc tế Thiếu nhi | Copyright — see original source | [Nguồn và tác giả](<https://thanglong.chinhphu.vn/mot-ngay-rong-choi-gan-ket-gia-dinh-nhan-dip-quoc-te-thieu-nhi-1-6-103260527101153035.htm>) |
+| han-thuc | Cô giáo và trẻ em làm bánh trôi trong Tết Hàn thực | Copyright — see original source | [Nguồn và tác giả](<https://mnnguyenly.ninhbinh.edu.vn/hoat-dong-trai-nghiem-tet-han-thuc/>) |
+| army-and-national-defense-day | Đại biểu dự lễ kỷ niệm ngày thành lập Quân đội nhân dân Việt Nam | Copyright — see original source | [Nguồn và tác giả](<https://nhandan.vn/anh-le-ky-niem-80-nam-ngay-thanh-lap-quan-doi-nhan-dan-viet-nam-va-35-nam-ngay-hoi-quoc-phong-toan-dan-post851611.html>) |
+| teachers-day | Chương trình tri ân nhà giáo nhân Ngày Nhà giáo Việt Nam | Copyright — see original source | [Nguồn và tác giả](<https://tranhongha.chinhphu.vn/pho-thu-tuong-tran-hong-ha-phat-bieu-tai-chuong-trinh-thay-loi-tri-an-nhan-ngay-nha-giao-viet-nam-120231120151559412.htm>) |
+| vu-lan | Phật tử tham dự nghi thức bông hồng cài áo trong lễ Vu Lan | Copyright — see original source | [Nguồn và tác giả](<https://tuoitre.vn/bong-hong-cai-ao-va-nhung-giot-nuoc-mat-roi-tai-le-vu-lan-thang-7-20240817071839284.htm>) |
+| august-revolution | Người tham dự chương trình kỷ niệm Cách mạng tháng Tám tại Hà Nội | Copyright — see original source | [Nguồn và tác giả](<https://thanglong.chinhphu.vn/album/thu-tuong-chinh-phu-pham-minh-chinh-du-chuong-trinh-nghe-thuat-dac-biet-ha-noi-tu-mua-thu-lich-su-nam-1945-501.htm>) |
+| doctors-day | Hoạt động chúc mừng các y bác sĩ nhân Ngày Thầy thuốc Việt Nam | Copyright — see original source | [Nguồn và tác giả](<https://vpcp.chinhphu.vn/doi-ngu-y-bac-si-luon-phat-huy-pham-chat-luong-y-nhu-tu-mau-115250227125956658.htm>) |
+| nguyen-tieu | Biểu diễn trong Đêm hội Nguyên tiêu tại TPHCM | Copyright — see original source | [Nguồn và tác giả](<https://tphcm.chinhphu.vn/khai-mac-dem-hoi-nguyen-tieu-2022-101220215221139183.htm>) |
+| mid-autumn | Trẻ em vui Tết Trung thu tại Hoàng thành Thăng Long | Copyright — see original source | [Nguồn và tác giả](<https://thanglong.chinhphu.vn/khai-mac-vui-tet-trung-thu-tai-hoang-thanh-thang-long-10327420.htm>) |
+| kitchen-gods | Người dân thả cá chép tiễn ông Công ông Táo | Copyright — see original source | [Nguồn và tác giả](<https://thanglong.chinhphu.vn/nguoi-dan-tha-ca-chep-tien-ong-cong-ong-tao-ve-troi-10324020215311006.htm>) |
+| doan-ngo | Người dân chuẩn bị thực phẩm truyền thống trong Tết Đoan Ngọ | Copyright — see original source | [Nguồn và tác giả](<https://nhandan.vn/anh-tet-doan-ngo-cua-nguoi-ha-noi-post758778.html>) |
+| dien-bien-phu-victory | Bộ đội tiến qua cầu Mường Thanh trong chiến dịch Điện Biên Phủ | CC BY-SA 2.0 | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Contemporary_Photo_of_Vietnminh_Storming_across_Muong_Thanh_Bridge_(1954)_-_Dien_Bien_Phu_Victory_Museum_-_Dien_Bien_Phu_-_Vietnam_(48159225792).jpg>) |
+| ho-chi-minh-birthday | Chủ tịch Hồ Chí Minh gặp gỡ thiếu nhi | Public domain | [Nguồn và tác giả](<https://commons.wikimedia.org/wiki/File:Ho-chi-Minh_with_children_(7).jpg>) |
+| hung-kings | Người tham gia rước kiệu trong lễ hội Đền Hùng | Copyright — see original source | [Nguồn và tác giả](<https://petrotimes.vn/doc-dao-le-ruoc-kieu-ve-den-hung-2024-709438.html>) |
+| lunar-new-years-eve | Người dân đón giao thừa Tết Nguyên đán bên hồ Hoàn Kiếm | Copyright — see original source | [Nguồn và tác giả](<https://thanhnien.vn/nguoi-ha-noi-du-xuan-ngam-phao-hoa-giao-thua-trong-troi-lanh-10-do-c-185250129005326195.htm>) |
