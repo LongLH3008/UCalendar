@@ -7,9 +7,20 @@
 		"build": "next build",
 		"start": "next start",
 		"lint": "eslint",
-		"test:offline": "playwright test tests/calendar-offline.spec.ts"
+		"test:offline": "playwright test tests/calendar-offline.spec.ts",
+		"mobile:dev": "vite --config vite.mobile.config.mts",
+		"mobile:build": "vite build --config vite.mobile.config.mts",
+		"mobile:sync": "pnpm mobile:build && cap sync",
+		"mobile:android": "cap open android",
+		"mobile:ios": "cap open ios"
 	},
 	"dependencies": {
+		"@capacitor/android": "^8.5.2",
+		"@capacitor/app": "^8.1.1",
+		"@capacitor/core": "^8.5.2",
+		"@capacitor/ios": "^8.5.2",
+		"@capacitor/local-notifications": "^8.3.1",
+		"@capacitor/preferences": "^8.0.1",
 		"@hookform/resolvers": "^5.2.2",
 		"@js-temporal/polyfill": "^0.5.1",
 		"class-variance-authority": "^0.7.1",
@@ -25,11 +36,13 @@
 		"zod": "^4.4.3"
 	},
 	"devDependencies": {
+		"@capacitor/cli": "^8.5.2",
 		"@commitlint/cli": "^21.0.1",
 		"@commitlint/config-conventional": "^21.0.1",
 		"@playwright/test": "^1.63.0",
 		"@serwist/turbopack": "^9.5.12",
 		"@tailwindcss/postcss": "^4",
+		"@tailwindcss/vite": "^4.3.3",
 		"@types/node": "^20",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
@@ -41,7 +54,8 @@
 		"prettier-plugin-tailwindcss": "^0.6.12",
 		"serwist": "^9.5.12",
 		"tailwindcss": "^4",
-		"typescript": "^5"
+		"typescript": "^5",
+		"vite": "^8.3.0"
 	},
 	"packageManager": "pnpm@10.14.0"
 }

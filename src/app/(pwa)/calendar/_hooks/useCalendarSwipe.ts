@@ -10,12 +10,14 @@ export default function useCalendarSwipe(changeMonth: (direction: "next" | "prev
 	return {
 		onPointerDown(event: PointerEvent<HTMLDivElement>) {
 			if (event.pointerType !== "touch") return;
+			if (!(event.target instanceof Element) || !event.currentTarget.contains(event.target)) return;
 			if (!event.isPrimary) {
 				reset();
 				return;
 			}
 			start.current = { id: event.pointerId, x: event.clientX, y: event.clientY };
-			event.currentTarget.setPointerCapture(event.pointerId);
+			// Capturing a button's pointer would retarget its tap away from the dialog trigger.
+			if (!event.target.closest("button")) event.currentTarget.setPointerCapture(event.pointerId);
 		},
 		onPointerUp(event: PointerEvent<HTMLDivElement>) {
 			const origin = start.current;

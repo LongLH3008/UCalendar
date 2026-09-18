@@ -1,7 +1,7 @@
 "use client";
 
 import { DATE_OF_WEEK, generateMonthCalendar } from "@/core/calc/generate";
-import { createContext, useContext, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useState, type ReactNode } from "react";
 import type { SwipeDirection } from "./useCalendarSwipe";
 
 const useLogicCalendar = () => {
@@ -12,6 +12,16 @@ const useLogicCalendar = () => {
 		year: today.getFullYear(),
 	});
 	const [motion, setMotion] = useState<SwipeDirection | null>(null);
+	const [selectedDateString, setSelectedDateString] = useState<string | null>(null);
+	const openDate = useCallback((dateString: string) => {
+		if (!/^\d{4}-\d{2}-\d{2}$/.test(dateString)) return;
+		const date = new Date(`${dateString}T00:00:00+07:00`);
+		if (!Number.isFinite(date.getTime())) return;
+		const [year, month] = dateString.split("-").map(Number);
+		setCurrentTime({ year, month });
+		setSelectedDateString(dateString);
+		setMotion(null);
+	}, []);
 
 	const changeMonth = (action: "next" | "prev", swipe?: SwipeDirection) => {
 		setMotion(swipe ?? (action === "next" ? "left" : "right"));
@@ -24,7 +34,7 @@ const useLogicCalendar = () => {
 	};
 
 	const calendarWeeks = generateMonthCalendar(currentTime.year, currentTime.month);
-	return { changeMonth, calendarWeeks, currentTime, dateOfWeek: DATE_OF_WEEK, todayDateString, motion };
+	return { changeMonth, calendarWeeks, currentTime, dateOfWeek: DATE_OF_WEEK, todayDateString, motion, openDate, selectedDateString };
 };
 
 const CalendarContext = createContext<ReturnType<typeof useLogicCalendar> | null>(null);

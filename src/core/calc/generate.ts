@@ -1,6 +1,7 @@
 import { Temporal } from "@js-temporal/polyfill";
 import { logger } from "../lib/logger";
 import { solarToLunar } from "./lunar";
+import { eventsForDate } from "../calendar-events/resolve-events";
 
 export const DATE_OF_WEEK = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"] as const;
 
@@ -24,6 +25,7 @@ export function generateMonthCalendar(year: number, month: number) {
 			weekDays.push({
 				dateOfWeek: DATE_OF_WEEK[day],
 				dateString: currentGridDate.toString(), // YYYY-MM-DD
+				events: eventsForDate(currentGridDate.toString()),
 				solar: {
 					year: currentGridDate.year,
 					month: currentGridDate.month,

@@ -8,5 +8,6 @@ export const { dynamic, dynamicParams, revalidate, generateStaticParams, GET } =
 	globPatterns: [
 		".next/static/**/*.{js,css,woff,woff2,ttf,otf}",
 		"public/pwa/**/*.{html,json,webmanifest,png,svg,ico}",
+		"public/event/**/*.{jpg,jpeg,png,webp}",
 	],
 });

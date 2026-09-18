@@ -18,7 +18,7 @@ export default function CalendarHeader() {
 		<div className='flex w-full items-center justify-between gap-2 rounded-2xl bg-[#153157] p-5'>
 			<div className='w-full'>
 				<Heading as='h5' className='text-white font-bold leading-tight capitalize'>
-					{format.dateTime(month, { month: "long", timeZone: "UTC" })}
+					{format.dateTime(month, { month: "long", year: "numeric", timeZone: "UTC" })}
 				</Heading>
 				<div className='flex items-center gap-1'>
 					<CalendarDays className='text-white/50' size={16} />
