@@ -36,7 +36,7 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
 	const locale = isLocale(resolvedLocale) ? resolvedLocale : defaultLocale;
 	return (
 		<html lang={locale} className={`${font.variable} h-full antialiased`}>
-			<body className='min-h-full flex flex-col bg-white px-2'>
+			<body>
 				<LocaleProvider initialLocale={locale}>
 					<div className='absolute right-4 top-4 z-10'>
 						<LanguageSwitcher />

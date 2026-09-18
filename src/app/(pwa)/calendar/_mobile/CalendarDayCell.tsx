@@ -1,16 +1,18 @@
+"use client";
+
 import { cn } from "@/core/lib/utils";
-import { useTranslations } from "next-intl";
+import { useCalendar } from "../_hooks/useCalendar";
 import type { CalendarDay } from "../calendar.types";
 
 type Props = {
 	day: CalendarDay;
-	isToday: boolean;
 };
 
 const isSpecialLunarDay = (day: number) => day === 1 || day === 15;
 
-export default function CalendarDayCell({ day, isToday }: Props) {
-	const t = useTranslations("Calendar");
+export default function CalendarDayCell({ day }: Props) {
+	const { todayDateString } = useCalendar();
+	const isToday = day.dateString === todayDateString;
 	const isWeekend = day.dateOfWeek === "Sat" || day.dateOfWeek === "Sun";
 
 	return (

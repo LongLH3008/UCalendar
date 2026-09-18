@@ -17,6 +17,8 @@
 		"next": "Next",
 		"previousLabel": "Previous month",
 		"nextLabel": "Next month",
+		"leapMonth": "Leap month",
+		"daysInMonth": "{count} days",
 		"leapMonthMarker": " L",
 		"weekdays": {
 			"Mon": "Mon",

@@ -1,11 +1,11 @@
 {
 	"name": "UCalendar",
-	"short_name": "UCalendar",
+	"short_name": "UCale",
 	"description": "UCalendar - Your Personal Calendar",
 	"lang": "en",
 	"id": "/",
-	"start_url": "/calendar",
-	"scope": "/calendar",
+	"start_url": "/calendar/",
+	"scope": "/calendar/",
 	"icons": [
 		{
 			"src": "/pwa/icons/web-app-manifest-192x192.png",

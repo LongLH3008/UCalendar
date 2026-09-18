@@ -1,5 +1,10 @@
-﻿import Calendar from "./_components/Calendar";
+import { CalendarProvider } from "./_hooks/useCalendar";
+import Calendar from "./_mobile/Calendar";
 
 export default function Page() {
-	return <Calendar />;
+	return (
+		<CalendarProvider>
+			<Calendar />
+		</CalendarProvider>
+	);
 }

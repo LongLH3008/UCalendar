@@ -17,6 +17,8 @@
 		"next": "Sau",
 		"previousLabel": "Tháng trước",
 		"nextLabel": "Tháng sau",
+		"leapMonth": "Nhuận",
+		"daysInMonth": "{count} ngày",
 		"leapMonthMarker": " N",
 		"weekdays": {
 			"Mon": "T2",
